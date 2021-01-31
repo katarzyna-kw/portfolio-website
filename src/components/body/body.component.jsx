@@ -12,12 +12,20 @@ function Body() {
       </div>
       <div id="portfolio">
         <h2>Portfolio</h2>
+        <div class="portfolio-container">
+          <a href="https://github.com/katarzyna-kw/election-map-project" target="_blank"><img class="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-election-map.png?raw=true" alt="election map website screencapture" /></a>
+          <a href="https://github.com/katarzyna-kw/quote-generator" target="_blank"><img class="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-quote-generator.png?raw=true" alt="quote generator screencapture" /></a>
+          <a href="https://github.com/katarzyna-kw/lolcat" target="_blank"><img class="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-cat-clock.png?raw=true" alt="cat clock screencapture" /></a>
+          <a href="https://github.com/katarzyna-kw/fcc-challenge-2" target="_blank"><img class="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-cat-clock.png?raw=true" alt="survey form screencapture" /></a>
+          <a href="https://github.com/katarzyna-kw/fcc-challenge-3" target="_blank"><img class="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-school-website.png?raw=true" alt="mock school website screencapture" /></a>
+          <a href="https://github.com/katarzyna-kw/fcc-challenge-4" target="blank"><img class="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-technical-documentation.png?raw=true" alt="mock technical documentation website screencapture" /></a>
+          <a href="https://github.com/katarzyna-kw/stretch" target="_blank"><img class="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-stretching-routine.png?raw=true" alt="digital stretching routine website screencapture" /></a>
+        </div>
       </div>
 
 
       <div id="contact">
         <h2>Contact Me</h2>
-        <div class="icons-container">
         <ul>
           <li>
             <a href="mailto: katarzyna.koch@gmail.com" target="_blank">
@@ -33,7 +41,6 @@ function Body() {
             <img class="icons" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/icon-linkedin.png?raw=true" alt="linkedin icon" />
           </li>
         </ul>
-        </div>
       </div>
     </div>
   );

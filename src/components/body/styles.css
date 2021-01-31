@@ -17,6 +17,12 @@ h2 {
     border-radius: 50%;
 }
 
+.portfolio-images {
+    width: 100%;
+    border: 1px solid #424B54;
+}
+
+
 #contact ul {
     display: flex;
     justify-content: space-around;
