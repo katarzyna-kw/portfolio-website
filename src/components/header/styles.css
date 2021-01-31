@@ -6,7 +6,7 @@
     flex-flow: row wrap;
   }
 
-  /*Logo/h1 styles*/
+  /*logo/h1 styles*/
   .logo {
     font-family: 'Bodoni Moda', serif;
     font-style: italic;
@@ -16,6 +16,7 @@
     width: 100%;
   }
 
+/*logo in second font for emphasis*/
   .logo span {
     font-family: 'Montserrat', sans serif;
     font-style: normal;
@@ -23,12 +24,14 @@
     font-size: 1.5rem;
   }
 
+/*h2 text styles*/
   .h2 {
     font-family: 'Bodoni Moda', serif;
     font-size: 1.1rem;
     margin-top: -7px;
     margin-bottom: 10px;
   }
+
 
   #navbar {
     font-family:'Montserrat', sans serif;
@@ -37,8 +40,8 @@
     padding: 0;
     width: 100%;
     padding: 0;
-    /* background-color: #B8BEDD; */
   }
+
 
   .nav {
     margin: 0;
@@ -53,7 +56,6 @@
     padding-right: auto;
     border-bottom: 1px solid #F0E6EF;
   }
-
     
   /* Style the navbar links */
   .header a {
