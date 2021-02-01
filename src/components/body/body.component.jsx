@@ -8,7 +8,7 @@ function Body() {
         {/* <img class="img" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/headshot-circle.png?raw=true" alt="image of Katarzyna" /> */}
         <img class="img" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/headshot-circle-bw.png?raw=true" alt="image of Katarzyna" />
 
-        My name is Katarzyna Wegrzynowicz. I am a front-end developer based in Chicago with expertise in communication skills and background in education. My skills include Javascript React, Javascript, HTML, and CSS. I love colors, animals, and Dionne Warwick.
+        My name is Katarzyna Wegrzynowicz. I am a front-end developer based in Chicago with a background in education and expertise in active listening and communication. My coding skills include React JS, Javascript, HTML, and CSS. I love colors, animals, and Dionne Warwick.
       </div>
       <div id="portfolio">
         <h2>Portfolio</h2>

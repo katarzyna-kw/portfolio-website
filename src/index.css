@@ -2,7 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(100deg, #B8BEDD 60%, #F0E6EF 60%);
+  background: linear-gradient(95deg, #B8BEDD 50%, #F0E6EF 50%);
 }
 
 code {
