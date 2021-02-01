@@ -8,20 +8,38 @@ h2 {
 
 #about {
     margin: 30px 10px 30px 10px;
+    font-size: 1.1rem;
+
 }
 
-.img {
+#about .img {
     width: 50%;
     max-width: 200px;
     border: 3px solid white;
     border-radius: 50%;
 }
 
-.portfolio-images {
+#portfolio .portfolio-images {
     width: 100%;
     border: 1px solid #424B54;
 }
 
+#portfolio .portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#portfolio .portfolio-container p {
+    font-size: 1.1rem;
+    margin: 5px 10px 30px 10px;
+    justify-content: center;
+}
+
+#portfolio .portfolio-container a {
+    text-decoration: none;
+    color: #424B54;
+}
 
 #contact ul {
     display: flex;
@@ -32,7 +50,7 @@ h2 {
     padding: 0;
 }
   
-li {
+#contact li {
     display: block;
     list-style-type: none;
     /* padding-top: 10px;
@@ -42,6 +60,6 @@ li {
   }
 
 
-.icons {
+#contact .icons {
     max-width: 50px;
 }
