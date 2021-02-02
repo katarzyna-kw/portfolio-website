@@ -90,14 +90,14 @@ h2 {
 
 @media (min-width: 1090px) {
     #about {
-        width: 50%;
+        width: 60%;
     }
 
     #portfolio {
-        width: 50%;
+        width: 60%;
     }
 
     #contact {
-        width: 50%;
+        width: 60%;
     }
 };
