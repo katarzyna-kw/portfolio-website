@@ -11,7 +11,7 @@ function Body() {
         My name is Katarzyna Wegrzynowicz. I am a front-end developer based in Chicago with a background in education and expertise in active listening and communication. My coding skills include React JS, Javascript, HTML, and CSS. I love colors, animals, and Dionne Warwick.
       </div>
       <div id="portfolio">
-        <h2>Portfolio</h2>
+      <h2>Portfolio</h2>
         <div class="portfolio-container">
           <a href="https://github.com/katarzyna-kw/election-map-project" target="_blank"><img class="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-election-map.png?raw=true" alt="election map website screencapture" /></a>
           <p>Election map coded with Javascript given html and css code // <a href="https://skillcrush.com/" target="_blank">Skillcrush project</a></p>
@@ -31,7 +31,7 @@ function Body() {
       </div>
 
       <div id="contact">
-        <h2>Contact Me</h2>
+      <h2>Contact Me</h2>
         <ul>
           <li>
             <a href="mailto: katarzyna.koch@gmail.com" target="_blank">

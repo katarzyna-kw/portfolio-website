@@ -1,3 +1,10 @@
+.body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 h2 {
     background-color: #EFC3E6;
     width: 100%;
@@ -9,7 +16,6 @@ h2 {
 #about {
     margin: 30px 10px 30px 10px;
     font-size: 1.1rem;
-
 }
 
 #about .img {
@@ -41,6 +47,10 @@ h2 {
     color: #424B54;
 }
 
+#contact {
+    width: 100%;
+}
+
 #contact ul {
     display: flex;
     justify-content: space-around;
@@ -65,13 +75,6 @@ h2 {
 }
 
 @media (min-width: 760px) and (max-width: 1089px) {
-    .body {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-
     #about {
         width: 65%;
     }
@@ -84,3 +87,17 @@ h2 {
         width: 65%;
     }
 }
+
+@media (min-width: 1090px) {
+    #about {
+        width: 50%;
+    }
+
+    #portfolio {
+        width: 50%;
+    }
+
+    #contact {
+        width: 50%;
+    }
+};
