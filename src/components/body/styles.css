@@ -63,3 +63,23 @@ h2 {
 #contact .icons {
     max-width: 50px;
 }
+
+@media (min-width: 760px) and (max-width: 1089px) {
+    .body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #about {
+        width: 65%;
+    }
+
+    #portfolio {
+        width: 65%;
+    }
+
+    #contact {
+        width: 65%;
+    }
+}

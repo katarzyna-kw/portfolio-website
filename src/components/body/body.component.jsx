@@ -28,6 +28,7 @@ function Body() {
           <a href="https://github.com/katarzyna-kw/stretch" target="_blank"><img class="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-stretching-routine.png?raw=true" alt="digital stretching routine website screencapture" /></a>
           <p>Stretching routine website coded with HTML and CSS</p>
         </div>
+      </div>
 
       <div id="contact">
         <h2>Contact Me</h2>
@@ -48,7 +49,6 @@ function Body() {
         </ul>
       </div>
     </div>
-  </div>
   );
 }
 

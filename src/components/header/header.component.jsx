@@ -1,12 +1,14 @@
-import './styles.css'
+import './styles.css';
 
 function Header() {
   return (
     <div class="header">
-      <div class="logo">Hi, I'm <span>Katarzyna;</span>
+      <div class="logo-container">
+        <div class="logo">Hi, I'm <span>Katarzyna;</span>
+        </div>
+        <div class="h2">a front-end developer
+        </div>
       </div>
-      <div class="h2">a front-end developer</div>
-
       <div id="navbar">
         <ul class="nav">
           <li>
