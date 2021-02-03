@@ -2,23 +2,23 @@ import './styles.css';
 
 function Header() {
   return (
-    <div class="header">
-      <div class="logo-container">
-        <div class="logo">Hi, I'm <span>Katarzyna;</span>
+    <div className="header">
+      <div className="logo-container">
+        <div className="logo">Hi, I'm <span>Katarzyna;</span>
         </div>
-        <div class="h2">a front-end developer
+        <div className="h2">a front-end developer
         </div>
       </div>
       <div id="navbar">
-        <ul class="nav">
+        <ul className="nav">
           <li>
-            <a class="nav-link" href="#about">About</a>
+            <a className="nav-link" href="#about">About</a>
           </li>
           <li>
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a className="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a class="nav-link" href="#contact">Contact</a>
+            <a className="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
