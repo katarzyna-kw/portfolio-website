@@ -2,7 +2,7 @@ import './styles.css'
 
 function Body() {
   return (
-    <div className="body" data-test-id="body">
+    <div className="body" data-testid="Body">
      <div id="about">
        <h2>About</h2>
         {/* <img className="img" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/headshot-circle.png?raw=true" alt="image of Katarzyna" /> */}
