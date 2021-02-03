@@ -2,7 +2,7 @@ import './styles.css';
 
 function Header() {
   return (
-    <div className="header">
+    <div className="header" data-testid="Header">
       <div className="logo-container">
         <div className="logo">Hi, I'm <span>Katarzyna;</span>
         </div>
