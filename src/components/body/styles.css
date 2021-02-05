@@ -109,4 +109,8 @@ h2 {
     #contact {
         width: 60%;
     }
+
+    h2 {
+        font-size: 1.9em;
+    }
 };
