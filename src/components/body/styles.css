@@ -74,6 +74,10 @@ h2 {
     max-width: 50px;
 }
 
+.carousel-item {
+    width: 50%;
+}
+
 @media (min-width: 760px) and (max-width: 1089px) {
     #about {
         width: 65%;
