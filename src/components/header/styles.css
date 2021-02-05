@@ -70,6 +70,7 @@
     text-decoration: none;
     color: #1E2D24;
     font-weight: 600;
+    cursor: cell;
   }
 
   @media (min-width: 760px) {
