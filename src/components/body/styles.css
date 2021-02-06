@@ -78,7 +78,7 @@ h2 {
     cursor: cell;
 }
 
-.icons:hover {
+.icons a:hover {
     color: #424B54;
 }
 
