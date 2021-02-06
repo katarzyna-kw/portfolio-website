@@ -9,7 +9,7 @@
     margin: auto;
     overflow: hidden;
     border: 1px solid #424B54;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
 .active {
@@ -79,7 +79,7 @@
     height: 100%;
     position: absolute;
     display: flex;
-    top: 93%;
+    top: 85%;
     justify-content: center;
     z-index: 200;
 }
