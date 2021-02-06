@@ -1,19 +1,18 @@
 import './styles.css'
+import React, { Fragment } from "react";
+import About from './About';
+import Slider from './Slider';
+
 
 function Body() {
   return (
     <div className="body" data-testid="Body">
-     <div id="about">
-       <h2>About</h2>
-        {/* <img className="img" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/headshot-circle.png?raw=true" alt="image of Katarzyna" /> */}
-
-        <img className="img" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/headshot-circle-bw.png?raw=true" alt="Katarzyna Wegrzynowicz" onMouseOver={e => (e.currentTarget.src = "https://github.com/katarzyna-kw/portfolio-website/blob/main/img/headshot-circle.png?raw=true")} onMouseOut={e => (e.currentTarget.src = "https://github.com/katarzyna-kw/portfolio-website/blob/main/img/headshot-circle-bw.png?raw=true")}/>
-
-        My name is Katarzyna Wegrzynowicz. I am a front-end developer based in Chicago with a background in education and expertise in active listening and communication. My coding skills include React JS, Javascript, HTML, and CSS. I love colors, animals, and Dionne Warwick.
-      </div>
+      <About />      
       <div id="portfolio">
       <h2>Portfolio</h2>
         <div className="portfolio-container">
+        <Slider />
+
           <a href="https://github.com/katarzyna-kw/election-map-project" target="_blank" rel="noopener noreferrer"><img className="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-election-map.png?raw=true" alt="election map website screencapture" /></a>
           <p>Election map coded with Javascript given html and css code // <a href="https://skillcrush.com/" target="_blank" rel="noopener noreferrer">Skillcrush project</a></p>
           <a href="https://github.com/katarzyna-kw/quote-generator" target="_blank" rel="noopener noreferrer"><img className="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-quote-generator.png?raw=true" alt="quote generator screencapture" /></a>

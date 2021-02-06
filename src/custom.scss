@@ -1,16 +1,232 @@
-// Override default variables before the import
-$body-bg: #000;
+// Notes on the classes:
+//
+// 1. .carousel.pointer-event should ideally be pan-y (to allow for users to scroll vertically)
+//    even when their scroll action started on a carousel, but for compatibility (with Firefox)
+//    we're preventing all actions instead
+// 2. The .carousel-item-left and .carousel-item-right is used to indicate where
+//    the active slide is heading.
+// 3. .active.carousel-item is the current slide.
+// 4. .active.carousel-item-left and .active.carousel-item-right is the current
+//    slide in its in-transition state. Only one of these occurs at a time.
+// 5. .carousel-item-next.carousel-item-left and .carousel-item-prev.carousel-item-right
+//    is the upcoming slide in transition.
 
-// Import Bootstrap and its default variables
-@import '~bootstrap/scss/bootstrap.scss';
-
-
-/*!
- * Bootstrap v3.1.0 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize *
-
-carousel{position:relative}.carousel-inner{position:relative;overflow:hidden;width:100%}.carousel-inner>.item{display:none;position:relative;-webkit-transition:.6s ease-in-out left;transition:.6s ease-in-out left}.carousel-inner>.item>img,.carousel-inner>.item>a>img{display:block;max-width:100%;height:auto;line-height:1}.carousel-inner>.active,.carousel-inner>.next,.carousel-inner>.prev{display:block}.carousel-inner>.active{left:0}.carousel-inner>.next,.carousel-inner>.prev{position:absolute;top:0;width:100%}.carousel-inner>.next{left:100%}.carousel-inner>.prev{left:-100%}.carousel-inner>.next.left,.carousel-inner>.prev.right{left:0}.carousel-inner>.active.left{left:-100%}.carousel-inner>.active.right{left:100%}.carousel-control{position:absolute;top:0;left:0;bottom:0;width:15%;opacity:.5;filter:alpha(opacity=50);font-size:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,.6)}.carousel-control.left{background-image:-webkit-linear-gradient(left,color-stop(rgba(0,0,0,.5) 0),color-stop(rgba(0,0,0,.0001) 100%));background-image:linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1)}.carousel-control.right{left:auto;right:0;background-image:-webkit-linear-gradient(left,color-stop(rgba(0,0,0,.0001) 0),color-stop(rgba(0,0,0,.5) 100%));background-image:linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1)}.carousel-control:hover,.carousel-control:focus{outline:0;color:#fff;text-decoration:none;opacity:.9;filter:alpha(opacity=90)}.carousel-control .icon-prev,.carousel-control .icon-next,.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right{position:absolute;top:50%;z-index:5;display:inline-block}.carousel-control .icon-prev,.carousel-control .glyphicon-chevron-left{left:50%}.carousel-control .icon-next,.carousel-control .glyphicon-chevron-right{right:50%}.carousel-control .icon-prev,.carousel-control .icon-next{width:20px;height:20px;margin-top:-10px;margin-left:-10px;font-family:serif}.carousel-control .icon-prev:before{content:'\2039'}.carousel-control .icon-next:before{content:'\203a'}.carousel-indicators{position:absolute;bottom:10px;left:50%;z-index:15;width:60%;margin-left:-30%;padding-left:0;list-style:none;text-align:center}.carousel-indicators li{display:inline-block;width:10px;height:10px;margin:1px;text-indent:-999px;border:1px solid #fff;border-radius:10px;cursor:pointer;background-color:#000 \9;background-color:rgba(0,0,0,0)}.carousel-indicators .active{margin:0;width:12px;height:12px;background-color:#fff}.carousel-caption{position:absolute;left:15%;right:15%;bottom:20px;z-index:10;padding-top:20px;padding-bottom:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,.6)}.carousel-caption .btn{text-shadow:none}@media screen and (min-width:768px){.carousel-control .glyphicons-chevron-left,.carousel-control .glyphicons-chevron-right,.carousel-control .icon-prev,.carousel-control .icon-next{width:30px;height:30px;margin-top:-15px;margin-left:-15px;font-size:30px}.carousel-caption{left:20%;right:20%;padding-bottom:30px}.carousel-indicators{bottom:20px}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after,.form-horizontal .form-group:before,.form-horizontal .form-group:after
+// stylelint-disable property-disallowed-list
+@mixin transition($transition...) {
+    @if length($transition) == 0 {
+      $transition: $transition-base;
+    }
+  
+    @if length($transition) > 1 {
+      @each $value in $transition {
+        @if $value == null or $value == none {
+          @warn "The keyword 'none' or 'null' must be used as a single argument.";
+        }
+      }
+    }
+  
+    @if $enable-transitions {
+      @if nth($transition, 1) != null {
+        transition: $transition;
+      }
+  
+      @if $enable-prefers-reduced-motion-media-query and nth($transition, 1) != null and nth($transition, 1) != none {
+        @media (prefers-reduced-motion: reduce) {
+          transition: none;
+        }
+      }
+    }
+  }
+  
+@mixin clearfix() {
+    &::after {
+      display: block;
+      clear: both;
+      content: "";
+    }
+  }
+  
+.carousel {
+    position: relative;
+  }
+  
+  .carousel.pointer-event {
+    touch-action: pan-y;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    @include clearfix();
+  }
+  
+  .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    @include transition($carousel-transition);
+  }
+  
+  .carousel-item.active,
+  .carousel-item-next,
+  .carousel-item-prev {
+    display: block;
+  }
+  
+  .carousel-item-next:not(.carousel-item-left),
+  .active.carousel-item-right {
+    transform: translateX(100%);
+  }
+  
+  .carousel-item-prev:not(.carousel-item-right),
+  .active.carousel-item-left {
+    transform: translateX(-100%);
+  }
+  
+  
+  //
+  // Alternate transitions
+  //
+  
+  .carousel-fade {
+    .carousel-item {
+      opacity: 0;
+      transition-property: opacity;
+      transform: none;
+    }
+  
+    .carousel-item.active,
+    .carousel-item-next.carousel-item-left,
+    .carousel-item-prev.carousel-item-right {
+      z-index: 1;
+      opacity: 1;
+    }
+  
+    .active.carousel-item-left,
+    .active.carousel-item-right {
+      z-index: 0;
+      opacity: 0;
+      @include transition(opacity 0s $carousel-transition-duration);
+    }
+  }
+  
+  
+  //
+  // Left/right controls for nav
+  //
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    // Use flex for alignment (1-3)
+    display: flex; // 1. allow flex styles
+    align-items: center; // 2. vertically center contents
+    justify-content: center; // 3. horizontally center contents
+    width: $carousel-control-width;
+    color: $carousel-control-color;
+    text-align: center;
+    opacity: $carousel-control-opacity;
+    @include transition($carousel-control-transition);
+  
+    // Hover/focus state
+    @include hover-focus() {
+      color: $carousel-control-color;
+      text-decoration: none;
+      outline: 0;
+      opacity: $carousel-control-hover-opacity;
+    }
+  }
+  .carousel-control-prev {
+    left: 0;
+    @if $enable-gradients {
+      background-image: linear-gradient(90deg, rgba($black, .25), rgba($black, .001));
+    }
+  }
+  .carousel-control-next {
+    right: 0;
+    @if $enable-gradients {
+      background-image: linear-gradient(270deg, rgba($black, .25), rgba($black, .001));
+    }
+  }
+  
+  // Icons for within
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: inline-block;
+    width: $carousel-control-icon-width;
+    height: $carousel-control-icon-width;
+    background: 50% / 100% 100% no-repeat;
+  }
+  .carousel-control-prev-icon {
+    background-image: escape-svg($carousel-control-prev-icon-bg);
+  }
+  .carousel-control-next-icon {
+    background-image: escape-svg($carousel-control-next-icon-bg);
+  }
+  
+  
+  // Optional indicator pips
+  //
+  // Add an ordered list with the following class and add a list item for each
+  // slide your carousel holds.
+  
+  .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0; // override <ol> default
+    // Use the .carousel-control's width as margin so we don't overlay those
+    margin-right: $carousel-control-width;
+    margin-left: $carousel-control-width;
+    list-style: none;
+  
+    li {
+      box-sizing: content-box;
+      flex: 0 1 auto;
+      width: $carousel-indicator-width;
+      height: $carousel-indicator-height;
+      margin-right: $carousel-indicator-spacer;
+      margin-left: $carousel-indicator-spacer;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: $carousel-indicator-active-bg;
+      background-clip: padding-box;
+      // Use transparent borders to increase the hit area by 10px on top and bottom.
+      border-top: $carousel-indicator-hit-area-height solid transparent;
+      border-bottom: $carousel-indicator-hit-area-height solid transparent;
+      opacity: .5;
+      @include transition($carousel-indicator-transition);
+    }
+  
+    .active {
+      opacity: 1;
+    }
+  }
+  
+  
+  // Optional captions
+  //
+  //
+  
+  .carousel-caption {
+    position: absolute;
+    right: (100% - $carousel-caption-width) / 2;
+    bottom: 20px;
+    left: (100% - $carousel-caption-width) / 2;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: $carousel-caption-color;
+    text-align: center;
+  }
