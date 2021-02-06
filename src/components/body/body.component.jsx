@@ -14,7 +14,7 @@ function Body() {
         <div className="portfolio-container">
         <Slider />
 
-          <a href="https://github.com/katarzyna-kw/election-map-project" target="_blank" rel="noopener noreferrer"><img className="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-election-map.png?raw=true" alt="election map website screencapture" /></a>
+          {/* <a href="https://github.com/katarzyna-kw/election-map-project" target="_blank" rel="noopener noreferrer"><img className="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-election-map.png?raw=true" alt="election map website screencapture" /></a>
           <p>Election map coded with Javascript given html and css code // <a href="https://skillcrush.com/" target="_blank" rel="noopener noreferrer">Skillcrush project</a></p>
           <a href="https://github.com/katarzyna-kw/quote-generator" target="_blank" rel="noopener noreferrer"><img className="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-quote-generator.png?raw=true" alt="quote generator screencapture" /></a>
           <p>Responsive quote generator coded with vanilla Javascript</p>
@@ -27,7 +27,7 @@ function Body() {
           <a href="https://github.com/katarzyna-kw/fcc-challenge-4" target="blank"><img className="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-technical-documentation.png?raw=true" alt="mock technical documentation website screencapture" /></a>
           <p>Responsive mock technical documentation website coded with HTML, CSS, and Javascript // <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freecodecamp project</a></p>
           <a href="https://github.com/katarzyna-kw/stretch" target="_blank" rel="noopener noreferrer"><img className="portfolio-images" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-stretching-routine.png?raw=true" alt="digital stretching routine website screencapture" /></a>
-          <p>Stretching routine website coded with HTML and CSS</p>
+          <p>Stretching routine website coded with HTML and CSS</p> */}
         </div>
       </div>
       <Contact />
