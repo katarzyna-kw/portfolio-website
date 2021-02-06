@@ -10,7 +10,7 @@ function SliderContent(props) {
                     className={index === props.activeIndex ? "slides active" : "inactive"}
                 >
                     <img className="slide-image" src={slide.urls} alt='' href={`${slide.link}}`}/>
-                    <p className="slide-text">{slide.description}</p>
+                    <h5 className="slide-text">{slide.description}</h5>
                 </div>
             ))}
         </section>
