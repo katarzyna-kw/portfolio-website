@@ -34,44 +34,22 @@ function Body() {
       <div id="contact">
       <h2>Contact Me</h2>
         <ul>
-          <li>
+          <li class="icons">
             <a href="mailto: katarzyna.koch@gmail.com" target="_blank" rel="noopener noreferrer">
-              <img className="icons" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/icon-envelope.png?raw=true" alt="email envelope icon" />
+              <i class="fa fa-envelope"></i>
             </a>
           </li>
-          <li>
+          <li class="icons">
             <a href="https://github.com/katarzyna-kw/" target="_blank" rel="noopener noreferrer">
-              <img className="icons" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/icon-github.png?raw=true" alt="github icon" />
+            <i class="fa fa-github"></i>
             </a>
           </li>
-          <li>
-            <img className="icons" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/icon-linkedin.png?raw=true" alt="linkedin icon" />
+          <li class="icons">
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square"></i>
+          </a>
           </li>
         </ul>
       </div>
-
-
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-election-map.png?raw=true" alt="Screencapture of election map project built with Javascript" />
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-quote-generator.png?raw=true" alt="Screencapture of responsive quote generator coded with vanilla Javascript" />
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/portfolio-cat-clock.png?raw=true" alt="Screencapture of clock coded with Javascript" />
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
   </div>
   );
 }

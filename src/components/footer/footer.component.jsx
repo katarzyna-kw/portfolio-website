@@ -4,9 +4,7 @@ import './styles.css'
 function Footer() {
   return (
     <div className="footer" data-testid="Footer">
-      <p>© 2021 Katarzyna Wegrzynowicz //
-        Icons made by 
-        <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy" target="_blank"> Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a>
+      <p>© 2021 Katarzyna Wegrzynowicz
       </p>
     </div>
   

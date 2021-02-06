@@ -71,9 +71,15 @@ h2 {
     padding-right: auto; */
   }
 
+.icons,
+.icons a {
+    font-size: 3rem;
+    color:black;
+    cursor: cell;
+}
 
-#contact .icons {
-    max-width: 50px;
+.icons:hover {
+    color: #424B54;
 }
 
 
