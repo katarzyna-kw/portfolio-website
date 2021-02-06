@@ -2,6 +2,7 @@ import './styles.css'
 import React, { Fragment } from "react";
 import About from './About';
 import Slider from './Slider';
+import Contact from './Contact';
 
 
 function Body() {
@@ -29,26 +30,7 @@ function Body() {
           <p>Stretching routine website coded with HTML and CSS</p>
         </div>
       </div>
-
-      <div id="contact">
-      <h2>Contact Me</h2>
-        <ul>
-          <li class="icons">
-            <a href="mailto: katarzyna.koch@gmail.com" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-envelope"></i>
-            </a>
-          </li>
-          <li class="icons">
-            <a href="https://github.com/katarzyna-kw/" target="_blank" rel="noopener noreferrer">
-            <i class="fa fa-github"></i>
-            </a>
-          </li>
-          <li class="icons">
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square"></i>
-          </a>
-          </li>
-        </ul>
-      </div>
+      <Contact />
   </div>
   );
 }
