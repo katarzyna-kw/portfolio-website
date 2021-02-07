@@ -9,7 +9,7 @@
     margin: auto;
     overflow: hidden;
     border: 1px solid #424B54;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 .active {
@@ -42,7 +42,7 @@
     color: black;
     position: absolute;
     text-align: center;
-    top: 80%;
+    top: 90%;
     z-index: 9;
     background-color: rgba(217, 236, 255, 0.5);
     text-align: center;
@@ -52,7 +52,7 @@
     cursor: cell;
     z-index: 100;
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: auto;
     padding: 1rem;
     margin-top: -3rem;
@@ -96,4 +96,10 @@
 
 .active-dot, .dot:hover {
     background-color: #EFC3E6;
+}
+
+@media (min-width: 760px) and (max-width: 1089px) {
+    .prev, .next {
+    top: 50%;
+    }
 }
