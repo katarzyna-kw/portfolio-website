@@ -13,7 +13,7 @@ export default [
     },
     {
         description: 'Clock coded with Javascript and styled given html and template css code // Skillcrush project',
-        urls: 'https://github.com/katarzyna-kw/portfolio-website/blob/main/img/2.png?raw=true',
+        urls: 'https://github.com/katarzyna-kw/portfolio-website/blob/main/img/2a.png?raw=true',
         alt: 'cat clock screencapture',
         link: 'https://github.com/katarzyna-kw/lolcat'
     },
