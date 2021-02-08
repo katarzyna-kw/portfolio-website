@@ -1,6 +1,6 @@
 export default [
     {
-        description: 'Election map coded with Javascript given html and css // Skillcrush project',
+        description: 'Election map coded with Javascript given html and css // Skillcrush  project',
         urls: 'https://github.com/katarzyna-kw/portfolio-website/blob/main/img/0.png?raw=true',
         alt: 'election map website screencapture',
         link: 'https://github.com/katarzyna-kw/election-map-project'
@@ -18,20 +18,20 @@ export default [
         link: 'https://github.com/katarzyna-kw/lolcat'
     },
         {
-        description: 'Responsive mock survey form coded with HTML and CSS // freecodecamp project',
+        description: 'Responsive mock survey form coded with HTML and CSS // freecodecamp.com project',
         urls: 'https://github.com/katarzyna-kw/portfolio-website/blob/main/img/3.png?raw=true',
         alt: 'survey form screencapture',
         link: 'https://github.com/katarzyna-kw/fcc-challenge-2'
 
     },
         {
-        description: 'Responsive mock website for Polish school coded with HTML and CSS // freecodecamp project',
+        description: 'Responsive mock website for Polish school coded with HTML and CSS // freecodecamp.com project',
         urls: 'https://github.com/katarzyna-kw/portfolio-website/blob/main/img/4.p.png?raw=true',
         alt: 'mock school website screencapture',
         link: 'https://github.com/katarzyna-kw/fcc-challenge-3'
     },
         {
-        description: 'Responsive mock documentation page coded with HTML, CSS, and Javascript // freecodecamp project',
+        description: 'Responsive mock documentation page coded with HTML, CSS, and Javascript // freecodecamp.com project',
         urls: 'https://github.com/katarzyna-kw/portfolio-website/blob/main/img/5.png?raw=true',
         alt: 'mock technical documentation website screencapture',
         link: 'https://github.com/katarzyna-kw/fcc-challenge-4'

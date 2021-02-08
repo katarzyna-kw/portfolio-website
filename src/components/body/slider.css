@@ -1,6 +1,6 @@
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 
 .slider-container {
     height: var(--heights);
@@ -37,14 +37,13 @@
     width: 100%;
     height: 100%;
     margin: 0 0 0 0;
-    padding: 1rem;
+    padding: .5rem .7rem 0 .7rem;
     color: black;
     position: absolute;
-    text-align: center;
+    text-align: left;
     top: 95%;
     z-index: 9;
     background-color: rgba(217, 236, 255, 0.5);
-    text-align: center;
 }
 
 .prev, .next {
@@ -101,11 +100,22 @@
 
 @media (min-width: 760px) and (max-width: 1089px) {
 
-    .slider-container {
-        padding-bottom: 0;
+    .slide-text {
+        padding: 1rem 2rem 0 2rem;
     }
-        
+
     .prev, .next {
     top: 50%;
+    }
+}
+
+@media (min-width: 1090px) {
+
+    .slide-text {
+        padding: 1.4rem 2.6rem 0 2.6rem;
+    }
+
+    .prev, .next {
+    top: 40%;
     }
 }
