@@ -27,6 +27,10 @@ h2 {
     cursor: cell;
 }
 
+#about .img:hover {
+    transform: scale(1.02);
+}
+
 #portfolio .portfolio-images {
     width: 100%;
     border: 1px solid #424B54;
