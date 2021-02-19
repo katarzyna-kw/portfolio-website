@@ -16,6 +16,8 @@ img {
 h5 {
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  font-size: 1rem;
+  padding: 0 1rem 0 1rem;
 }
 
 h5 a {
@@ -46,6 +48,10 @@ h5 a:hover {
 @media screen and (min-width: 640px) {
   .swiper-container {
     width: 640px;
+  }
+
+  h5 {
+    font-size: 1.2rem;
   }
 }
 
