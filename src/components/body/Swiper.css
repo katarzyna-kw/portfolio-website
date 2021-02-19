@@ -1,5 +1,6 @@
 .swiper-container {
-  width: 480px;
+  /* width: 480px; */
+  width: 100% !important;
   border: 1px solid black;
 }
 

@@ -24,7 +24,7 @@ export default () => {
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
       >
-        <SwiperSlide>
+        <SwiperSlide >
             <img
                 src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/0.png?raw=true"
                 alt="election map website screencapture" 

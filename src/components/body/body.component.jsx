@@ -2,7 +2,6 @@ import './styles.css'
 import React, { Fragment } from "react";
 import About from './About';
 import Portfolio from './Portfolio';
-import Slider from './Slider';
 import Contact from './Contact';
 
 

@@ -5,3 +5,30 @@
   text-align: center;
   margin: auto;
 }
+
+.swiper-container {
+  width: 480px;
+}
+
+.swiper-wrapper {
+  padding-inline-start: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
