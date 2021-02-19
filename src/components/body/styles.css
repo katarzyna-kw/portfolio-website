@@ -113,6 +113,9 @@ h2 {
 @media (min-width: 1090px) {
     #about {
         width: 60%;
+        font-size: 1.2rem;
+        line-height: 2.6rem;
+
     }
 
     #portfolio {

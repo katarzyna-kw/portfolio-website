@@ -45,7 +45,7 @@ h5 a:hover {
   
 
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 600px) {
   .swiper-container {
     width: 640px;
   }
