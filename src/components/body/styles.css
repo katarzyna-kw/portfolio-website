@@ -28,7 +28,7 @@ h2 {
 }
 
 #about .img:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
 }
 
 #portfolio {
@@ -94,6 +94,7 @@ h2 {
 @media (min-width: 760px) and (max-width: 1089px) {
     #about {
         width: 65%;
+        font-size: 1.2rem;
     }
 
     #portfolio {
