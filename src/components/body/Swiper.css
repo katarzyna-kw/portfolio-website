@@ -1,0 +1,55 @@
+.swiper-container {
+  width: 480px;
+  border: 1px solid black;
+}
+
+.swiper-wrapper {
+  padding-inline-start: 0;
+  padding-bottom: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h5 a {
+  text-decoration: none;
+  color: slateblue;
+}
+
+h5 a:hover {
+  color: darkorchid;
+}
+
+.swiper-button-prev {
+  color: #EFC3E6;
+}
+
+.swiper-button-next {
+  color: #EFC3E6;
+}
+
+.swiper-pagination-bullet-active {
+  background: #EFC3E6;
+  opacity: 1;
+  }
+  
+  
+
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
