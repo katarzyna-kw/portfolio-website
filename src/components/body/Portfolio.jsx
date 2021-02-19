@@ -1,5 +1,6 @@
-import Slider from './Slider';
 import './styles.css';
+import Slider from './Slider';
+import Swiper from './Swiper';
 
 function Portfolio() {
   return (
@@ -7,6 +8,7 @@ function Portfolio() {
     <h2>Portfolio</h2>
       <div className="portfolio-container">
       <Slider />
+      <Swiper />
       </div>
     </div>
 );
