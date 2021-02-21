@@ -46,17 +46,6 @@ h2 {
     flex-direction: column;
 }
 
-#portfolio .portfolio-container p {
-    font-size: 1.1rem;
-    margin: 5px 10px 30px 10px;
-    justify-content: center;
-}
-
-#portfolio .portfolio-container a {
-    text-decoration: none;
-    color: #424B54;
-}
-
 #contact {
     width: 100%;
 }
@@ -91,18 +80,18 @@ h2 {
 }
 
 
-@media (min-width: 600px) and (max-width: 1089px) {
+@media (min-width: 768px) and (max-width: 1089px) {
     #about {
-        width: 65%;
+        width: 70%;
         font-size: 1.2rem;
     }
 
     #portfolio {
-        width: 65%;
+        width: 70%;
     }
 
     #contact {
-        width: 65%;
+        width: 70%;
     }
 
     h2 {

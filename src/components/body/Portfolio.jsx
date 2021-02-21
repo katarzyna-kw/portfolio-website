@@ -4,9 +4,9 @@ import Swipe from './Swipe'
 function Portfolio() {
   return (
     <div id="portfolio">
-    <h2>Portfolio</h2>
+      <h2>Portfolio</h2>
       <div className="portfolio-container">
-      <Swipe />
+        <Swipe />
       </div>
     </div>
 );
