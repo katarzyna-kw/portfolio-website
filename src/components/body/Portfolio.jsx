@@ -6,7 +6,7 @@ function Portfolio() {
     <div id="portfolio">
     <h2>Portfolio</h2>
       <div className="portfolio-container">
-      <Swiper />
+      <Swipe />
       </div>
     </div>
 );
