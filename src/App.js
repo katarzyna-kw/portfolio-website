@@ -1,7 +1,6 @@
 import Header from './components/header/header.component.jsx';
 import Body from './components/body/body.component.jsx';
 import Footer from './components/footer/footer.component.jsx';
-import Slider from './components/body/Slider';
 import './App.css';
 
 function App() {
