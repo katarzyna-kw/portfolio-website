@@ -1,5 +1,5 @@
 import './styles.css';
-import Swiper from './Swiper';
+import Swipe from './Swipe'
 
 function Portfolio() {
   return (
