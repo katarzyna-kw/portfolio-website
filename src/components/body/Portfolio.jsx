@@ -1,5 +1,4 @@
 import './styles.css';
-import Slider from './Slider';
 import Swiper from './Swiper';
 
 function Portfolio() {
