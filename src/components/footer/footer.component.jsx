@@ -1,4 +1,3 @@
-import MediaQuery from 'react-responsive';
 import './styles.css'
 
 function Footer() {
