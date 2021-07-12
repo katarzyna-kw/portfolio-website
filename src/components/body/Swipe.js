@@ -13,7 +13,7 @@ import './Swiper.css'
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 
-export default () => {
+function Swipe() {
     return (
       <Swiper
         spaceBetween={0}
@@ -21,7 +21,7 @@ export default () => {
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide >
@@ -78,3 +78,5 @@ export default () => {
       </Swiper>
     );
   };  
+
+  export default Swipe;
