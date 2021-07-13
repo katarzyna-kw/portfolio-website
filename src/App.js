@@ -13,8 +13,6 @@ function App() {
     data-testid="App" 
     style={
       {
-      // '--theme-page-background-left': '#B8BEDD',
-      // '--theme-page-background-right': '#F0E6EF',
       background: `
         linear-gradient(
           95deg, 
