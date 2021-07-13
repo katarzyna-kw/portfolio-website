@@ -1,12 +1,24 @@
+@import-normalize;
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+
 .body {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
 }
 
 h2 {
-    background-color: #EFC3E6;
+    background-color: var(--theme-page-h2-subheader-bg);
+    color: var(--theme-page-h2-subheader-font);
     width: 100%;
     font-family: 'Arapey', serif;
     font-style: italic;
@@ -71,12 +83,12 @@ h2 {
 .icons,
 .icons a {
     font-size: 3rem;
-    color:black;
+    color:var(--theme-page-contact-icons);
     cursor: cell;
 }
 
 .icons a:hover {
-    color: #424B54;
+    color: var(--theme-page-contact-icons-hover);
 }
 
 

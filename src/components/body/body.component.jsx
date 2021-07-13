@@ -8,8 +8,8 @@ import Contact from './Contact';
 function Body() {
   return (
     <div className="body" data-testid="Body">
-      <About />  
-      <Portfolio />    
+      <About/>  
+      <Portfolio/>    
       <Contact />
   </div>
   );

@@ -1,9 +1,53 @@
+@import-normalize;
+
 @import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Bodoni+Moda:ital@0;1&family=Poppins:wght@200;300&family=Domine:wght@400;500&family=Montserrat:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,800&family=Shrikhand&family=Trocchi&display=swap');
 @import url('https://kit.fontawesome.com/d79a895327.js');
 
+.pastel {
+  --theme-page-background-left: #B8BEDD;
+  --theme-page-background-right: #F0E6EF;
+  --theme-page-h2-subheader-bg: #EFC3E6;
+  --theme-page-h2-subheader-font: black;
+  --theme-page-contact-icons: black;
+  --theme-page-contact-icons-hover: #424B54;
+  --theme-header-logo: black;
+  --theme-header-logo-span: #1E2D24;
+  --theme-header-navbar: black;
+  --theme-header-navbar-hover: #1E2D24;
+  --theme-footer-font: #1E2D24;
+  --theme-footer-font-hover: black;
+  --theme-swiper-font: black;
+  --theme-swiper-link: slateblue;
+  --theme-swiper-link-hover: darkorchid;
+  --theme-swiper-bullets: #EFC3E6;
+
+}
+
+.neon {
+  --theme-page-background-left: #F5317A;
+  --theme-page-background-right: #020205;
+  --theme-page-h2-subheader-bg: #03EFE9;
+  --theme-page-h2-subheader-font: black;
+  --theme-page-contact-icons: white;
+  --theme-page-contact-icons-hover: #F96707;
+  --theme-header-logo: white;
+  --theme-header-logo-span: #F5317A;
+  --theme-header-navbar: white;
+  --theme-header-navbar-hover: papayawhip;
+  --theme-footer-font: white;
+  --theme-footer-font-hover: #F96707;
+  --theme-swiper-font: white;
+  --theme-swiper-link: #03EFE9;
+  --theme-swiper-link-hover: #F96707;
+  --theme-swiper-controls: #F5317A!important;
+}
+
+:root {
+  margin: 0 0 0 0;
+}
 .App {
   text-align: center;
-  margin: auto;
+  margin: 0;
 }
 
 .swiper-container {

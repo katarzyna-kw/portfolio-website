@@ -1,4 +1,6 @@
 import './styles.css'
+// import '../../theme.css'
+
 
 function Contact() {
   return (

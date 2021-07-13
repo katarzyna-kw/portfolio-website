@@ -15,6 +15,7 @@
     margin-bottom: 0;
     margin-top: 30px;
     width: 100%;
+    color: var(--theme-header-logo)
   }
 
 /*logo in second font for emphasis*/
@@ -23,6 +24,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 1.5em;
+    color: var(--theme-header-logo-span)!important;
   }
 
 /*h2 text styles*/
@@ -32,12 +34,13 @@
     margin-top: 0;
     padding-top: 9px;
     margin-bottom: 10px;
+    color: var(--theme-header-logo);
+
   }
 
 /*navigation styles*/
   #navbar {
     font-family:'Montserrat', sans serif;
-    color: black;
     font-size: 1.1rem;
     font-weight: 500;
     padding: 0;
@@ -63,14 +66,14 @@
   .header a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: var(--theme-header-navbar);
     font-weight: 500;
   }
   
   /* Change the background color on mouse-over */
   .header a:hover {
     text-decoration: none;
-    color: #1E2D24;
+    color: var(--theme-header-navbar-hover);
     font-weight: 600;
     cursor: cell;
   }

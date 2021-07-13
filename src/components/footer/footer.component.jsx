@@ -1,4 +1,5 @@
 import './styles.css'
+// import '../../theme.css'
 
 function Footer() {
   return (

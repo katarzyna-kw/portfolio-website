@@ -1,4 +1,5 @@
 import './styles.css'
+import '../../App.css'
 
 function About() {
   return (

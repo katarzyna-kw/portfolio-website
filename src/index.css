@@ -1,9 +1,4 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(95deg, #B8BEDD 50%, #F0E6EF 50%);
-}
+@import-normalize;
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

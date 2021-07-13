@@ -1,5 +1,6 @@
 import './styles.css';
 import Swipe from './Swipe'
+// import '../../theme.css'
 
 function Portfolio() {
   return (

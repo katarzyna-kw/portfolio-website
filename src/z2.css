@@ -1,0 +1,17 @@
+.light {
+    --theme-page-background-left: #B8BEDD;
+    --theme-page-background-right: #F0E6EF;
+    --theme-page-h2-subheader-bg: #EFC3E6;
+    --theme-page-h2-subheader-font: black;
+    --theme-page-contact-icons: black;
+    --theme-page-contact-icons-hover: #424B54;
+}
+
+.dark {
+    --theme-page-background-left: #F5317A;
+    --theme-page-background-right: #020205;
+    --theme-page-h2-subheader-bg: #03EFE9;
+    --theme-page-h2-subheader-font: white;
+    --theme-page-contact-icons: #F96707;
+    --theme-page-contact-icons-hover: white;
+}

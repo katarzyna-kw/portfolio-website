@@ -2,12 +2,12 @@
     font-family: 'Montserrat', sans-serif;
     font-size: .6rem;
     text-transform: uppercase;
-    color: #1E2D24;
+    color: var(--theme-footer-font);
     margin-top: 50px;
 }
 
 .footer a {
-    color: black;
+    color: var(--theme-footer-font-hover);
     text-decoration: none;
 }
 
