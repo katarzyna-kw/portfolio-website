@@ -6,6 +6,10 @@
     margin-top: 50px;
 }
 
+.footer-text {
+    margin: 0;
+}
+
 .footer a {
     color: var(--theme-footer-font-hover);
     text-decoration: none;

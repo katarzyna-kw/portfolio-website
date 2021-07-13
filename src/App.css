@@ -45,6 +45,16 @@
 :root {
   margin: 0;
 }
+
+body {
+  min-height: 100%;
+  margin: 0;
+  margin-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .App {
   text-align: center;
   margin: 0;
