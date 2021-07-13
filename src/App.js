@@ -16,8 +16,8 @@ function App() {
       background: `
         linear-gradient(
           95deg, 
-          var(--theme-page-background-left) 50%,
-          var(--theme-page-background-right) 50%
+          var(--theme-page-background-left) 60%,
+          var(--theme-page-background-right) 60%
         )` 
       }
     }
