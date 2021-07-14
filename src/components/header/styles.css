@@ -78,6 +78,10 @@
     cursor: cell;
   }
 
+  toggle-style {
+    color: var(--theme-toggle);
+  }
+
   @media (min-width: 760px) {
 
     .logo-container {

@@ -22,7 +22,7 @@ function App() {
       }
     }
   >
-      <Header />
+      <Header theme={theme} setTheme={setTheme}/>
       <Body />
       <Footer />
     </div>
