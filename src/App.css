@@ -21,17 +21,20 @@
   --theme-swiper-link: slateblue;
   --theme-swiper-link-hover: darkorchid;
   --theme-swiper-controls: #EFC3E6;
-  --theme-toggle: slateblue;
+  --theme-toggle: slateblue!important;
 
 }
 
 .neon {
-  --theme-page-background-left: #1a1a1a;
-  --theme-page-background-right: #05git a1010;
-  --theme-page-h2-subheader-bg: #ddb0ff;
-  --theme-page-h2-subheader-font: black;
-  --theme-page-contact-icons: #a09c96;
-  --theme-page-contact-icons-hover: #F96707;
+  /* --theme-page-background-left: #1a1a1a;
+  --theme-page-background-right: #051010; */
+  --theme-page-background-left: #1d1218;
+  --theme-page-background-right: #040708;
+  /* --theme-page-h2-subheader-bg: #ddb0ff; */
+  --theme-page-h2-subheader-bg: #e45ada;
+  --theme-page-h2-subheader-font: white;
+  --theme-page-contact-icons: #dddddd;
+  --theme-page-contact-icons-hover: #FBFF12;
   --theme-header-logo: #FBFF12;
   --theme-header-logo-span: #41EAD4;
   --theme-header-navbar: white;
@@ -42,8 +45,8 @@
   --theme-swiper-font: white;
   --theme-swiper-link: #03EFE9;
   --theme-swiper-link-hover: #F96707;
-  --theme-swiper-controls: #fa0057;
-  --theme-toggle: #F96707;
+  --theme-swiper-controls: #41EAD4;
+  --theme-toggle: #F96707!important;
   /* ddb0ff */
   /* FBFF12 */
 }

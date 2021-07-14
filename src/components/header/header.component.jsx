@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Switch, FormControlLabel, FormGroup } from '@material-ui/core'
+import { Switch, FormControlLabel, FormGroup, withStyles } from '@material-ui/core'
 import './styles.css';
 
 function Header({setTheme}) {
@@ -14,6 +14,20 @@ function Header({setTheme}) {
     setTheme((theme) => (theme === 'pastel' ? 'neon' : 'pastel'));
   }
 
+  const PurpleSwitch = withStyles({
+    switchBase: {
+      color: '#B8BEDD',
+      '&$checked': {
+        color: '#e45ada',
+      },
+      '&$checked + $track': {
+        backgroundColor: '#F0E6EF',
+      },
+    },
+    checked: {},
+    track: {},
+  })(Switch);
+  
   return (
     <div className="header" data-testid="Header">
       <div className="logo-container">
@@ -36,7 +50,7 @@ function Header({setTheme}) {
           <li>
           <FormGroup>
             <FormControlLabel 
-              control={<Switch size="small" checked={checked} onChange={handleToggle} onClick={onModeToggle} className="toggleStyle" />}
+              control={<PurpleSwitch size="small" checked={checked} onChange={handleToggle} onClick={onModeToggle} className="toggleStyle" />}
             />
           </FormGroup>
 
