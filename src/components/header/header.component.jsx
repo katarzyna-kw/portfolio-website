@@ -4,7 +4,7 @@ import './styles.css';
 
 function Header({setTheme}) {
 
-  const [checked, setChecked] = useState(0);
+  const [checked, setChecked] = useState(false);
 
   const handleToggle = (event) => {
     setChecked(event.target.checked)

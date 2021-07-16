@@ -15,6 +15,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 
 function Swipe() {
+
     return (
       <Swiper
         spaceBetween={0}
