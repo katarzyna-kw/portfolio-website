@@ -38,6 +38,12 @@ h5 a:hover {
   color: var(--theme-swiper-controls);
 }
 
+.swiper-pagination-bullet {
+  background: var(--theme-swiper-bullets);
+  opacity: 1;
+  }
+
+
 .swiper-pagination-bullet-active {
   background: var(--theme-swiper-controls);
   opacity: 1;

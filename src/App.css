@@ -21,6 +21,7 @@
   --theme-swiper-link: slateblue;
   --theme-swiper-link-hover: darkorchid;
   --theme-swiper-controls: #EFC3E6;
+  --theme-swiper-bullets: #a5acc4;
   --theme-toggle: slateblue!important;
 
 }
@@ -29,7 +30,7 @@
   /* --theme-page-background-left: #1a1a1a;
   --theme-page-background-right: #051010; */
   --theme-page-background-left: #1d1218;
-  --theme-page-background-right: #040708;
+  --theme-page-background-right: #414040;
   /* --theme-page-h2-subheader-bg: #ddb0ff; */
   --theme-page-h2-subheader-bg: #b93baf;
   --theme-page-h2-subheader-font: white;
@@ -41,11 +42,12 @@
   --theme-header-navbar-hover: #FBFF12;
   --theme-body-about-text: white;
   --theme-footer-font: white;
-  --theme-footer-font-hover: #F96707;
+  --theme-footer-font-hover: #ddb0ff;
   --theme-swiper-font: white;
   --theme-swiper-link: #03EFE9;
-  --theme-swiper-link-hover: #F96707;
+  --theme-swiper-link-hover: #ddb0ff;
   --theme-swiper-controls: #41EAD4;
+  --theme-swiper-bullets: #dddddd;
   --theme-toggle: #F96707!important;
   /* ddb0ff */
   /* FBFF12 */
