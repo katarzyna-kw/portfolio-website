@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 // Import Swiper React components
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,6 +17,8 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function Swipe() {
 
+    // const [cardList, setCards] = useState([])
+
     return (
       <Swiper
         spaceBetween={0}
@@ -26,7 +29,8 @@ function Swipe() {
         // onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
       >
-        <SwiperSlide >
+        <SwiperSlide>
+            {/* <SwiperCardList cardList={cardList} /> */}
             <img
                 src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/0.png?raw=true"
                 alt="election map website screencapture" 
