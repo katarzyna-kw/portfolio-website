@@ -9,7 +9,8 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import './Swiper.css'
-// import '../../theme.css'
+// import { data } from './SwiperData'
+
 
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
@@ -30,6 +31,7 @@ function Swipe() {
         onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide>
+
             {/* <SwiperCardList cardList={cardList} /> */}
             <img
                 src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/0.png?raw=true"

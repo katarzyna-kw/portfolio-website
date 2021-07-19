@@ -7,7 +7,7 @@ module.exports = [
       languages: 'Vanilla Javascript, CSS, HTML',
       link: 'github-repo-gallery',
       repo: 'github-repo-gallery'
-  },
+    },
     {
         id: '02',
         imageid: '02.png',
