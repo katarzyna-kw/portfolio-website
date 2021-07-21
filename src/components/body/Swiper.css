@@ -13,20 +13,36 @@ img {
     width: 100%;
 }
 
-h5 {
+.cardTextWrapper {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   padding: 0 1rem 0 1rem;
   color: var(--theme-swiper-font);
 }
 
-h5 a {
-  text-decoration: none;
-  color: var(--theme-swiper-link);
+.cardTextWrapper h3 {
+  font-weight: bold;
 }
 
-h5 a:hover {
+.cardTextWrapper h3 span {
+  font-weight: normal;
+}
+
+.cardTextWrapper p {
+  font-weight: normal;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.cardTextWrapper a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--theme-swiper-link);
+  font-size: 1.2em;
+}
+
+.cardTextWrapper a:hover {
   color: var(--theme-swiper-link-hover);
 }
 

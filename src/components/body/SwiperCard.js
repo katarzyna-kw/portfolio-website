@@ -1,11 +1,13 @@
 export const SwiperCard = ( {card} ) => {
     return (
     <div className="cardWrapper">
-        <img src={`https://raw.githubusercontent.com/katarzyna-kw/my-website/main/public/${card.imageid}`} alt='screencapture' />
-        <div style={{ fontWeight: 'bold' }}>{card.name}</div>
-        <div>{card.description}</div>
-        <div>{card.languages}</div>
-        <div>{card.html_url}</div>
+        <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/img/portfolio/${card.imageid}`} alt='screencapture' />
+        <div className="cardTextWrapper">
+            <h3>{card.name} <span>/// Built using {card.languages}</span></h3>
+            <p>{card.description}</p>
+            <div class="cardLinks"><a href={`https://katarzyna-kw.github.io/${card.link}`} target="_blank" rel="noreferrer">Live link</a></div>
+            <div class="cardLinks"><a href={`https://github.com/katarzyna-kw/${card.repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+        </div>
     </div>
     );
 }

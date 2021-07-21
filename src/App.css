@@ -18,10 +18,10 @@
   --theme-footer-font: #1E2D24;
   --theme-footer-font-hover: black;
   --theme-swiper-font: black;
-  --theme-swiper-link: slateblue;
-  --theme-swiper-link-hover: darkorchid;
-  --theme-swiper-controls: #EFC3E6;
-  --theme-swiper-bullets: #a5acc4;
+  --theme-swiper-link: #061035;
+  --theme-swiper-link-hover: #2e313f;
+  --theme-swiper-controls: #2e313f;
+  --theme-swiper-bullets: #424B54;
   --theme-toggle: slateblue!important;
 
 }
