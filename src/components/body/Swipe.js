@@ -2,15 +2,15 @@ import React, {useState} from 'react';
 // Import Swiper React components
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import {SwiperCard} from './SwiperCard'
 // Import Swiper styles
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import './Swiper.css'
-// import { data } from './SwiperData'
-
+import { data } from './SwiperData'
+// import {SwiperCardList} from './SwiperCardList'
 
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
@@ -18,7 +18,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function Swipe() {
 
-    // const [cardList, setCards] = useState([])
+    const [card, setCard] =useState(data[0])
 
     return (
       <Swiper
@@ -30,9 +30,19 @@ function Swipe() {
         // onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
       >
-        <SwiperSlide>
+          <SwiperSlide>
+            <SwiperCard card={card} />
 
-            {/* <SwiperCardList cardList={cardList} /> */}
+
+            {/* <img
+                src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/0.png?raw=true"
+                alt="Github repo gallery screencapture" 
+            />
+            <h5>
+                Election map coded with Javascript given html and css // <a href="https://www.skillcrush.com" target="_blank" rel="noreferrer">Skillcrush</a> project // <a href="https://github.com/katarzyna-kw/election-map-project" target="_blank" rel="noreferrer">github repo</a></h5>
+        </SwiperSlide>
+
+          <SwiperSlide>
             <img
                 src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/0.png?raw=true"
                 alt="election map website screencapture" 
@@ -80,11 +90,10 @@ function Swipe() {
             src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/6.png?raw=true"
             alt="digital stretching routine website screencapture"
         />
-        <h5>Stretching routine website coded with HTML and CSS // <a href="https://github.com/katarzyna-kw/stretch" target="_blank" rel="noreferrer">github repo</a></h5>
+        <h5>Stretching routine website coded with HTML and CSS // <a href="https://github.com/katarzyna-kw/stretch" target="_blank" rel="noreferrer">github repo</a></h5> */}
         </SwiperSlide>
-
-      </Swiper>
+        </Swiper>
     );
-  };  
+};  
 
   export default Swipe;
