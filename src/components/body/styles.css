@@ -85,20 +85,20 @@ h2 {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin-top: 0;
+    margin-top: 5px;
     margin-bottom: 0;
 }
 
 .skills-content-col2,
 .skills-content-col3 {
     border-top: 1px solid #eee;
-
 }
 
 .skills-content ul {
 	list-style: none;
 	padding: 0;
 }
+
 .skills-content li {
     padding: 0;
 }
@@ -119,10 +119,6 @@ h2 {
 #contact li {
     display: block;
     list-style-type: none;
-    /* padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: auto;
-    padding-right: auto; */
   }
 
 .icons,
