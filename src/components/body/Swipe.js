@@ -23,13 +23,6 @@ function Swipe() {
     // const [cards, setCards] = useState([])
     // const [selectedCard, setSelectedCard] =useState(data[0])
 
-    const slides = [];
-
-    for (let i=0; i < data.length; i++) {
-        slides.push(
-            <SwiperSlide key={data.id}></SwiperSlide>
-        )
-    }
 
     
     // useEffect(() => {
@@ -51,68 +44,140 @@ function Swipe() {
         onSwiper={() => console.log('swipe!')}
         onSlideChange={() => console.log('slide change')}
       >
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[0].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[0].name} <span>/// Built using {data[0].languages}</span></h3>
+                    <p>{data[0].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[0].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[0].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[1].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[1].name} <span>/// Built using {data[1].languages}</span></h3>
+                    <p>{data[1].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[1].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[1].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[2].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[2].name} <span>/// Built using {data[2].languages}</span></h3>
+                    <p>{data[2].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[2].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[2].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[3].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[3].name} <span>/// Built using {data[3].languages}</span></h3>
+                    <p>{data[3].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[3].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[3].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
+        {/* <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[4].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[4].name} <span>/// Built using {data[4].languages}</span></h3>
+                    <p>{data[4].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[4].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[4].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[5].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[5].name} <span>/// Built using {data[5].languages}</span></h3>
+                    <p>{data[5].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[5].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[5].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[6].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[6].name} <span>/// Built using {data[6].languages}</span></h3>
+                    <p>{data[6].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[6].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[6].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide> */}
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[7].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[7].name} <span>/// Built using {data[7].languages}</span></h3>
+                    <p>{data[7].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[7].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[7].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[8].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[8].name} <span>/// Built using {data[8].languages}</span></h3>
+                    <p>{data[8].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[8].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[8].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[9].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[9].name} <span>/// Built using {data[9].languages}</span></h3>
+                    <p>{data[9].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[9].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[9].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[10].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[10].name} <span>/// Built using {data[10].languages}</span></h3>
+                    <p>{data[10].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[10].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[10].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[11].imageid}`} alt='screencapture' />
+                <div className="cardTextWrapper">
+                    <h3>{data[11].name} <span>/// Built using {data[11].languages}</span></h3>
+                    <p>{data[11].description}</p>
+                    <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${data[11].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[11].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
           {/* <SwiperSlide> */}
             {/* <SwiperCard card={selectedCard} /> */}
-            {slides}
-
-            {/* <img
-                src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/0.png?raw=true"
-                alt="Github repo gallery screencapture" 
-            />
-            <h5>
-                Election map coded with Javascript given html and css // <a href="https://www.skillcrush.com" target="_blank" rel="noreferrer">Skillcrush</a> project // <a href="https://github.com/katarzyna-kw/election-map-project" target="_blank" rel="noreferrer">github repo</a></h5>
-        </SwiperSlide>
-
-          <SwiperSlide>
-            <img
-                src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/0.png?raw=true"
-                alt="election map website screencapture" 
-            />
-            <h5>
-                Election map coded with Javascript given html and css // <a href="https://www.skillcrush.com" target="_blank" rel="noreferrer">Skillcrush</a> project // <a href="https://github.com/katarzyna-kw/election-map-project" target="_blank" rel="noreferrer">github repo</a></h5>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img 
-                src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/1.png?raw=true"
-                alt="quote generator screencapture"
-            />
-            <h5>Responsive quote generator coded with vanilla Javascript // <a href="https://github.com/katarzyna-kw/quote-generator" target="_blank" rel="noreferrer">github repo</a></h5>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img 
-                src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/2.png?raw=true" 
-                alt="cat clock screencapture"
-            />
-            <h5>Clock coded with Javascript and styled with flexbox given html and template css code // <a href="https://www.skillcrush.com" target="_blank" rel="noreferrer">Skillcrush</a> project // <a href="https://github.com/katarzyna-kw/lolcat" target="_blank" rel="noreferrer">github repo</a></h5>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img 
-                src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/3.png?raw=true" 
-                alt="survey form screencapture"
-            />
-            <h5>Responsive mock survey form coded with HTML and CSS  // <a href="https://www.freecodecamp.com" target="_blank" rel="noreferrer">freecodecamp.com</a> project // <a href="https://github.com/katarzyna-kw/fcc-challenge-2" target="_blank" rel="noreferrer">github repo</a></h5>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img 
-            src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/4.p.png?raw=true"
-            alt="mock school website screencapture"
-        />
-        <h5>Responsive mock website for Polish school coded with HTML and CSS  // <a href="https://www.freecodecamp.com" target="_blank" rel="noreferrer">freecodecamp.com</a> project // <a href="https://github.com/katarzyna-kw/fcc-challenge-3" target="_blank" rel="noreferrer">github repo</a></h5>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img 
-            src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/5.png?raw=true"
-            alt="mock school website screencapture"
-        />
-        <h5>Responsive mock documentation page coded with HTML, CSS, and Javascript  // <a href="https://www.freecodecamp.com" target="_blank" rel="noreferrer">freecodecamp.com</a> project // <a href="https://github.com/katarzyna-kw/fcc-challenge-4" target="_blank" rel="noreferrer">github repo</a></h5>
-        </SwiperSlide>
-        <SwiperSlide>
-            <img 
-            src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/6.png?raw=true"
-            alt="digital stretching routine website screencapture"
-        />
-        <h5>Stretching routine website coded with HTML and CSS // <a href="https://github.com/katarzyna-kw/stretch" target="_blank" rel="noreferrer">github repo</a></h5> */}
-        {/* </SwiperSlide> */}
         </Swiper>
     );
 };  
