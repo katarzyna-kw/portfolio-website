@@ -1,7 +1,7 @@
 export const SwiperCard = ( {card} ) => {
     return (
     <div className="cardWrapper">
-        <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/img/portfolio/${card.imageid}`} alt='screencapture' />
+        <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${card.imageid}`} alt='screencapture' />
         <div className="cardTextWrapper">
             <h3>{card.name} <span>/// Built using {card.languages}</span></h3>
             <p>{card.description}</p>
