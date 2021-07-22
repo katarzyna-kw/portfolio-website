@@ -2,7 +2,7 @@ import './styles.css'
 import React from "react";
 import About from './About';
 import Portfolio from './Portfolio';
-// import Skills from './Skills';
+import Skills from './Skills';
 import Contact from './Contact';
 
 
@@ -11,7 +11,7 @@ function Body() {
     <div className="body" data-testid="Body">
       <About/>  
       <Portfolio/>
-      {/* <Skills />     */}
+      <Skills />    
       <Contact />
   </div>
   );

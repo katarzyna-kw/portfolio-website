@@ -61,6 +61,43 @@ h2 {
     flex-direction: column;
 }
 
+#skills {
+    margin: 30px 10px 30px 10px;
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    color: var(--theme-body-about-text);
+    width: 100%;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* .skills-content ul {
+    background-color: deepskyblue;
+} */
+
+.skills-content h5 
+{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: fuchsia; */
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.skills-content ul {
+    /* background-color: indianred; */
+    margin-top: 0;
+}
+.skills-content li {
+    /* background-color: greenyellow; */
+    text-align: left;
+}
+
 #contact {
     width: 100%;
 }
@@ -101,11 +138,10 @@ h2 {
         font-size: 1.2rem;
     }
 
-    #portfolio {
-        width: 70%;
-    }
-
-    #contact {
+    #portfolio, 
+    #skills,
+    #contact 
+    {
         width: 70%;
     }
 
@@ -119,13 +155,10 @@ h2 {
         width: 60%;
         font-size: 1.2rem;
         line-height: 2.6rem;
-
     }
 
-    #portfolio {
-        width: 60%;
-    }
-
+    #portfolio,
+    #skills,
     #contact {
         width: 60%;
     }
