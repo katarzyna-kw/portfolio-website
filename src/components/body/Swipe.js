@@ -1,15 +1,17 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
+import {SwiperCard} from './SwiperCard'
+import { data } from './SwiperData'
+
 // Import Swiper React components
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {SwiperCard} from './SwiperCard'
+
 // Import Swiper styles
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import './Swiper.css'
-import { data } from './SwiperData'
 // import {SwiperCardList} from './SwiperCardList'
 
 // install Swiper modules
@@ -18,7 +20,26 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function Swipe() {
 
-    const [card, setCard] =useState(data[0])
+    // const [cards, setCards] = useState([])
+    // const [selectedCard, setSelectedCard] =useState(data[0])
+
+    const slides = [];
+
+    for (let i=0; i < data.length; i++) {
+        slides.push(
+            <SwiperSlide key={data.id}></SwiperSlide>
+        )
+    }
+
+    
+    // useEffect(() => {
+    //     const initiateCards = () => {
+    //         setCards(data)
+    //         setSelectedCard(data[0])
+    //     }
+    //     initiateCards();
+    // }, []
+    // );
 
     return (
       <Swiper
@@ -27,12 +48,12 @@ function Swipe() {
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        // onSwiper={(swiper) => console.log(swiper)}
+        onSwiper={() => console.log('swipe!')}
         onSlideChange={() => console.log('slide change')}
       >
-          <SwiperSlide>
-            <SwiperCard card={card} />
-
+          {/* <SwiperSlide> */}
+            {/* <SwiperCard card={selectedCard} /> */}
+            {slides}
 
             {/* <img
                 src="https://github.com/katarzyna-kw/portfolio-website/blob/main/img/0.png?raw=true"
@@ -91,7 +112,7 @@ function Swipe() {
             alt="digital stretching routine website screencapture"
         />
         <h5>Stretching routine website coded with HTML and CSS // <a href="https://github.com/katarzyna-kw/stretch" target="_blank" rel="noreferrer">github repo</a></h5> */}
-        </SwiperSlide>
+        {/* </SwiperSlide> */}
         </Swiper>
     );
 };  

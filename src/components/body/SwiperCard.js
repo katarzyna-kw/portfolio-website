@@ -5,8 +5,8 @@ export const SwiperCard = ( {card} ) => {
         <div className="cardTextWrapper">
             <h3>{card.name} <span>/// Built using {card.languages}</span></h3>
             <p>{card.description}</p>
-            <div class="cardLinks"><a href={`https://katarzyna-kw.github.io/${card.link}`} target="_blank" rel="noreferrer">Live link</a></div>
-            <div class="cardLinks"><a href={`https://github.com/katarzyna-kw/${card.repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+            <div className="cardLinks"><a href={`https://katarzyna-kw.github.io/${card.link}`} target="_blank" rel="noreferrer">Live link</a></div>
+            <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${card.repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
         </div>
     </div>
     );
