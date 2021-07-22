@@ -21,6 +21,7 @@
   --theme-swiper-link: #061035;
   --theme-swiper-link-hover: #2e313f;
   --theme-swiper-controls: #2e313f;
+  --theme-swiper-selected-bullet: white;
   --theme-swiper-bullets: #424B54;
   --theme-toggle: slateblue!important;
 
@@ -46,7 +47,8 @@
   --theme-swiper-font: white;
   --theme-swiper-link: #03EFE9;
   --theme-swiper-link-hover: #ddb0ff;
-  --theme-swiper-controls: #41EAD4;
+  --theme-swiper-controls: #b93baf;
+  --theme-swiper-selected-bullet: #FBFF12;
   --theme-swiper-bullets: #dddddd;
   --theme-toggle: #F96707!important;
   /* ddb0ff */

@@ -48,10 +48,13 @@ img {
 
 .swiper-button-prev {
   color: var(--theme-swiper-controls);
+  margin-top: -100px;
 }
 
 .swiper-button-next {
   color: var(--theme-swiper-controls);
+  margin-top: -100px;
+
 }
 
 .swiper-pagination-bullet {
@@ -61,7 +64,7 @@ img {
 
 
 .swiper-pagination-bullet-active {
-  background: var(--theme-swiper-controls);
+  background: var(--theme-swiper-selected-bullet);
   opacity: 1;
   }
   
