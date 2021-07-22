@@ -35,6 +35,17 @@ h2 {
     transform: scale(1.1);
 }
 
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-content p {
+    line-height: 1.7em;
+    text-align: right;
+}
+
 #portfolio {
     width: 100%;
 }
