@@ -18,7 +18,7 @@ function Skills() {
                     </ul>
                 </div>
                 <div className="skills-content-col2">
-                    <h5>Competent</h5>
+                    <h5>Limited Proficiency</h5>
                     <ul>
                         <li>PostgreSQL</li>
                         <li>Jasmine testing</li>
