@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Switch, FormControlLabel, FormGroup, withStyles } from '@material-ui/core'
 import './styles.css';
+import Box from "@material-ui/core/Box";
 
 function Header({setTheme}) {
 
