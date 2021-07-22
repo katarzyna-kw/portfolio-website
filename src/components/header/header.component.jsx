@@ -56,7 +56,6 @@ function Header({setTheme}) {
               control={<PurpleSwitch size="small" checked={checked} onChange={handleToggle} onClick={onModeToggle} className="toggleStyle" />}
             />
           </FormGroup>
-
           </li>
         </ul>
       </div>
