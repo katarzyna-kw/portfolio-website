@@ -45,6 +45,9 @@ function Header({setTheme}) {
             <a className="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li>
+            <a className="nav-link" href="#skills">Skills</a>
+          </li>
+          <li>
             <a className="nav-link" href="#contact">Contact</a>
           </li>
           <li>
