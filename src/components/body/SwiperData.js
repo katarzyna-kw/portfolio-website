@@ -2,20 +2,20 @@ export const data = [
   {
     id: '01',
     imageid: '01.png',
-    name: 'Github Repo Gallery',
-    description: 'Displays public repos with search functionality. Javascript coded for Skillcrush challenge/learning purposes. HTML/CSS template customized to match portfolio website and to enable light/dark themes to enhance user experience.',
-    languages: 'Javascript, CSS, HTML',
-    link: 'github-repo-gallery',
-    repo: 'github-repo-gallery'
-  },
-  {
-    id: '02',
-    imageid: '02.png',
     name: 'Puffy Cat Game ',
     description: 'Puffy Cat version of Flappy Bird coded with Javascript and HTML5 canvas and designed with custom graphics.',
     languages: 'Javascript, CSS, HTML5',
     link: 'puffy-cat-game',
     repo: 'puffy-cat-game'
+  },
+  {
+    id: '02',
+    imageid: '02.png',
+    name: 'Github Repo Gallery',
+    description: 'Displays public repos with search functionality. Javascript coded for Skillcrush challenge/learning purposes. HTML/CSS template customized to match portfolio website and to enable light/dark themes to enhance user experience.',
+    languages: 'Javascript, CSS, HTML',
+    link: 'github-repo-gallery',
+    repo: 'github-repo-gallery'
   }, 
   {
     id: '03',
