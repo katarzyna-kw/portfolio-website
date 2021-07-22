@@ -98,7 +98,7 @@ function Swipe() {
                     <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[4].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
                 </div>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
             <div className="cardWrapper">
                 <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[5].imageid}`} alt='screencapture' />
@@ -110,7 +110,7 @@ function Swipe() {
                 </div>
             </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
             <div className="cardWrapper">
                 <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[6].imageid}`} alt='screencapture' />
                 <div className="cardTextWrapper">

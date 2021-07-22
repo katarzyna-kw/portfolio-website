@@ -48,7 +48,7 @@ export const data = [
     id: '06',
     imageid: '06.png',
     name: 'Guess the Word Game ',
-    description: 'A guessing game in which the player has 8 attempt to guess the correct word. Javascript coded for Skillcrush challenge/learning purposes. HTML/CSS starter template customization.',
+    description: 'A guessing game in which the player has 8 attempt to guess the correct word. Javascript coded for Skillcrush challenge/learning purposes using provided HTML/CSS.',
     languages: 'Javascript, HTML, CSS',
     link: 'guess-the-word-game',
     repo: 'guess-the-word-game'
