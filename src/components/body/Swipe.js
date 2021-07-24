@@ -20,19 +20,9 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function Swipe() {
 
-    // const [cards, setCards] = useState([])
-    // const [selectedCard, setSelectedCard] =useState(data[0])
-
-
-    
-    // useEffect(() => {
-    //     const initiateCards = () => {
-    //         setCards(data)
-    //         setSelectedCard(data[0])
-    //     }
-    //     initiateCards();
-    // }, []
-    // );
+    // for (let i=0; i<data.length; i++) {
+    //     console.log(data[2])
+    // }
 
     return (
       <Swiper
