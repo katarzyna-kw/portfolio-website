@@ -154,8 +154,12 @@ h2 {
     .skills-content-col1,
     .skills-content-col2,
     .skills-content-col3 {
-        flex-basis: 30%;
+        flex-basis: 45%;
     }
+
+    /* .skills-content-col1 {
+        border-right: 1px solid #eee;
+    } */
 
     .skills-content-col2,
     .skills-content-col3 {
@@ -187,8 +191,12 @@ h2 {
     .skills-content-col1,
     .skills-content-col2,
     .skills-content-col3 {
-        flex-basis: 30%;
+        flex-basis: 45%;
     }
+
+    /* .skills-content-col1 {
+        border-right: 1px solid #eee;
+    } */
 
     .skills-content-col2,
     .skills-content-col3 {
