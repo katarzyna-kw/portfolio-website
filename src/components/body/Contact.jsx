@@ -18,7 +18,7 @@ function Contact() {
                     </a>
                 </li>
                 <li className="icons">
-                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <a href="www.linkedin.com/in/katarzyna-kw" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-linkedin-square"></i>
                     </a>
                 </li>
