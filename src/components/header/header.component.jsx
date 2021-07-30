@@ -16,7 +16,7 @@ function Header({setTheme}) {
 
   const PurpleSwitch = withStyles({
     switchBase: {
-      color: '#B8BEDD',
+      color: '#1E2D24',
       '&$checked': {
         color: '#e45ada',
       },
