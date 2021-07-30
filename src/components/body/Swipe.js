@@ -20,10 +20,10 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function Swipe() {
 
-    // for (let i=0; i<data.length; i++) {
-    //     console.log(data[2])
-    // }
-
+    const listItems = data.map((id) =>
+    <li>{number}</li>
+  );
+  
     return (
       <Swiper
         spaceBetween={0}
