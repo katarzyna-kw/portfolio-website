@@ -19,10 +19,6 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 
 function Swipe() {
-
-    const listItems = data.map((id) =>
-    <li>{number}</li>
-  );
   
     return (
       <Swiper
