@@ -107,4 +107,13 @@ export const data = [
     link: 'fcc-challenge-3',
     repo: 'fcc-challenge-3'
   },
+  {
+    id: '13',
+    imageid: '13.png',
+    name: '606 Academy',
+    description: 'A responsive website for a Chicago-based youth basketball company built with React, HTML, and CSS.',
+    languages: 'React JS, HTML, CSS',
+    link: '606-academy',
+    repo: '606-academy'
+  }
 ];
