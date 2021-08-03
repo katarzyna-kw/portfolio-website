@@ -186,7 +186,7 @@ function Swipe() {
                 </div>
             </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
             <div className="cardWrapper">
                 <a href={`https://katarzyna-kw.github.io/${data[12].link}`} target="_blank" rel="noreferrer">
                     <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[12].imageid}`} alt='screencapture' />
@@ -197,7 +197,7 @@ function Swipe() {
                     <div className="cardLinks"><a href="https://606basketballacademy.com/" target="_blank" rel="noreferrer">Live link</a></div>
                 </div>
             </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
 
           {/* <SwiperSlide> */}
             {/* <SwiperCard card={selectedCard} /> */}
