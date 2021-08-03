@@ -186,6 +186,19 @@ function Swipe() {
                 </div>
             </div>
         </SwiperSlide>
+        {/* <SwiperSlide>
+            <div className="cardWrapper">
+                <a href={`https://katarzyna-kw.github.io/${data[12].link}`} target="_blank" rel="noreferrer">
+                    <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[12].imageid}`} alt='screencapture' />
+                </a>
+                <div className="cardTextWrapper">
+                    <h3>{data[12].name} <span>/// Built using {data[12].languages}</span></h3>
+                    <p>{data[12].description}</p>
+                    <div className="cardLinks"><a href="https://606basketballacademy.com/" target="_blank" rel="noreferrer">Live link</a></div>
+                </div>
+            </div>
+        </SwiperSlide> */}
+
           {/* <SwiperSlide> */}
             {/* <SwiperCard card={selectedCard} /> */}
         </Swiper>
