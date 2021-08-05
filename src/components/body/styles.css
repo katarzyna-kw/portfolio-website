@@ -41,6 +41,17 @@ h2 {
     text-align: right;
 }
 
+.about-content a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--theme-swiper-link);
+    font-size: 1em;
+  }
+  
+  .about-content a:hover {
+    color: var(--theme-swiper-link-hover);
+  }
+
 #portfolio {
     width: 100%;
 }
