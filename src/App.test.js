@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders without crashing', () => {
+test('renders App without crashing', () => {
   render(<App />);
-  const linkElement = screen.getByTestId("App");
-  expect(linkElement).toBeInTheDocument();
+  const appElement = screen.getByTestId("App");
+  expect(appElement).toBeInTheDocument();
 });

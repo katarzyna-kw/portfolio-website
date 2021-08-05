@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import Footer from './footer.component';
 
-test('renders learn react link', () => {
+test('renders Footer', () => {
   render(<Footer />);
-  const linkElement = screen.getByTestId("Footer");
-  expect(linkElement).toBeInTheDocument();
+  const footer = screen.getByTestId("Footer");
+  expect(footer).toBeInTheDocument();
 });
