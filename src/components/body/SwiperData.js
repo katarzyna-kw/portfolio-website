@@ -115,5 +115,23 @@ export const data = [
     languages: 'React JS, HTML, CSS',
     link: '606-academy',
     repo: '606-academy'
+  },
+  {
+    id: '14',
+    imageid: '14.png',
+    name: 'Unplugged',
+    description: 'A responsive website coded with CSS and HTML using an Abobe Photoshop prototype for a Skillcrush project.',
+    languages: 'HTML, CSS',
+    link: 'unplugged',
+    repo: 'unplugged'
+  },
+  {
+    id: '15',
+    imageid: '15.png',
+    name: 'Rogue Pickings',
+    description: 'A responsive website coded with CSS and HTML using an Abobe Photoshop prototype for a Skillcrush project.',
+    languages: 'HTML, CSS',
+    link: 'rogue-pickings',
+    repo: 'rogue-pickings'
   }
 ];
