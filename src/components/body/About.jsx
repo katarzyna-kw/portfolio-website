@@ -8,7 +8,12 @@ function About() {
             <div className="about-content">
               <img className="img" src={"https://github.com/katarzyna-kw/portfolio-website/blob/main/public/img/headshot-circle-bw.png?raw=true"} alt="Katarzyna Wegrzynowicz" onMouseOver={e => (e.currentTarget.src = "https://github.com/katarzyna-kw/portfolio-website/blob/main/public/img/headshot-circle.png?raw=true")} onMouseOut={e => (e.currentTarget.src = "https://github.com/katarzyna-kw/portfolio-website/blob/main/public/img/headshot-circle-bw.png?raw=true")}/>
               <p>
-                My name is Katarzyna Wegrzynowicz. I am a highly-organized and detail-oriented front-end developer based in Chicago with a background in education, expertise in active listening. My <a href="#skills">programming skills</a> include Javascript, React JS, CSS, and HTML. I also have some back-end experience using PostgreSQL. I love colors, animals, solving problems, and Dionne Warwick.
+                My name is Katarzyna Wegrzynowicz. I am a highly-organized and detail-oriented front-end developer based in Round Lake Beach, IL. 
+              </p>
+              <p>
+                I love deconstructing problems to develop solutions and have a strong background in education.
+              </p>
+              <p>My <a href="#skills">programming skills</a> include Javascript, React, CSS, and HTML. I love colors, animals, and Dionne Warwick.
               </p>
             </div>
             {/* <div class="about-skills">
