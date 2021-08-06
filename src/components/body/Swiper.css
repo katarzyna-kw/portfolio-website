@@ -21,10 +21,12 @@ img {
 }
 
 .cardTextWrapper h3 {
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
 .cardTextWrapper h3 span {
+  font-family: 'Poppins', sans-serif;
   font-weight: normal;
 }
 
