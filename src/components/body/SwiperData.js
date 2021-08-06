@@ -35,15 +35,15 @@ export const data = [
     link: 'https://katarzyna-kw.github.io/daily-check',
     repo: 'daily-check'
   }, 
-  // {
-  //   id: '05',
-  //   imageid: '05.png',
-  //   name: 'Youtube Clone ',
-  //   description: 'Created for learning purposes using React JS and Node JS Express/PostgreSQL for server. Work in Progress. Currently renders videos from database and increments likes/dislikes for each video.',
-  //   languages: 'React JS, Javascript through Node JS, CSS',
-  //   link: 'youtube-clone',
-  //   repo: 'youtube-clone'
-  // }, 
+  {
+    id: '05',
+    imageid: '05.png',
+    name: 'Youtube Clone ',
+    description: 'Created for learning purposes using React JS and Node JS Express/PostgreSQL for server. Work in Progress. Currently renders videos from database and increments likes/dislikes for each video.',
+    languages: 'React JS, Javascript through Node JS, CSS',
+    link: 'youtube-clone',
+    repo: 'youtube-clone'
+  }, 
   {
     id: '06',
     imageid: '06.png',
@@ -53,15 +53,15 @@ export const data = [
     link: 'https://katarzyna-kw.github.io/guess-the-word-game',
     repo: 'guess-the-word-game'
   },
-  // {
-  //   id: '07',
-  //   imageid: '07.png',
-  //   name: 'Lodash Clone',
-  //   description: 'An academic exercise writing code to mimic lodash library methods such as first, last, forEach, filter, map, and reduce.',
-  //   languages: 'Javascript',
-  //   link: 'lodash-clone',
-  //   repo: 'lodash-clone'
-  // },
+  {
+    id: '07',
+    imageid: '07.png',
+    name: 'Lodash Clone',
+    description: 'An academic exercise writing code to mimic lodash library methods such as first, last, forEach, filter, map, and reduce.',
+    languages: 'Javascript',
+    link: 'lodash-clone',
+    repo: 'lodash-clone'
+  },
   {
     id: '08',
     imageid: '08.png',

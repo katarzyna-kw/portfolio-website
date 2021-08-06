@@ -199,6 +199,19 @@ function Swipe() {
                 </div>
             </div>
         </SwiperSlide>
+        <SwiperSlide>
+            <div className="cardWrapper">
+                <a href={`${data[13].link}`} target="_blank" rel="noreferrer">
+                    <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[13].imageid}`} alt='screencapture' />
+                </a>
+                <div className="cardTextWrapper">
+                    <h3>{data[13].name} <span>/// Built using {data[13].languages}</span></h3>
+                    <p>{data[13].description}</p>
+                    <div className="cardLinks"><a href={`${data[13].link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                    <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[13].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                </div>
+            </div>
+        </SwiperSlide>
 
         </Swiper>
     );
