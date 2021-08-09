@@ -13,7 +13,7 @@ export const data = [
     id: '02',
     imageid: 'github-gallery.png',
     name: 'Github Repo Gallery',
-    description: 'A gallery that displays public repos with search functionality. Coded using Javascript and Github REST API for a Skillcrush project. HTML/CSS template customized to match portfolio website and to enable light/dark themes for enchanced user experience.',
+    description: 'A gallery that displays public repos with search functionality. Coded using Javascript and Github REST API for a Skillcrush project. HTML/CSS template customized. Light/dark theme toggle functionality for enhanced user experience.',
     languages: 'Javascript, CSS, HTML',
     link: 'https://katarzyna-kw.github.io/github-repo-gallery',
     repo: 'github-repo-gallery',

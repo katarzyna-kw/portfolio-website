@@ -14,10 +14,6 @@ img {
     margin-top: -1px;
 }
 
-/* .cardWrapper {
-  background-color: #F0E6EF;
-} */
-
 .cardTextWrapper {
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -35,16 +31,18 @@ img {
 .cardTextWrapper h3 span {
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
+  font-size: 1rem;
 }
 
 .cardTextWrapper p {
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1rem;
   text-align: left;
   line-height: 1.5em;
 }
 
 .cardTextWrapper a {
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   font-weight: bold;
   color: var(--theme-swiper-link);
@@ -52,7 +50,8 @@ img {
 }
 
 .cardTextWrapper a:hover {
-  color: var(--theme-swiper-link-hover);
+  background-color: var(--theme-swiper-link-hover);
+  padding: 0 .5rem 0 .5rem;
 }
 
 .swiper-button-prev {
