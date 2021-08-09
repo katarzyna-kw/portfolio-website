@@ -12,7 +12,7 @@ export const data = [
     id: '02',
     imageid: 'github-gallery.png',
     name: 'Github Repo Gallery',
-    description: 'Displays public repos with search functionality. Coded using Javascript for a Skillcrush project. HTML/CSS template customized to match portfolio website and to enable light/dark themes to enhance user experience.',
+    description: 'A gallery that displays public repos with search functionality. Coded using Javascript and Github REST API for a Skillcrush project. HTML/CSS template customized to match portfolio website and to enable light/dark themes to enhance user experience.',
     languages: 'Javascript, CSS, HTML',
     link: 'https://katarzyna-kw.github.io/github-repo-gallery',
     repo: 'github-repo-gallery'
@@ -21,7 +21,7 @@ export const data = [
     id: '03',
     imageid: 'puffy-cat.png',
     name: 'Puffy Cat Game ',
-    description: 'Puffy Cat version of Flappy Bird coded with Javascript and HTML5 canvas. Designed with custom graphics.',
+    description: 'A Puffy Cat game built with vanilla Javascript, HTML5 canvas, and CSS in the style of Flappy Bird. Custom player and background graphics created in Adobe Photoshop.',
     languages: 'Javascript, CSS, HTML5',
     link: 'https://katarzyna-kw.github.io/puffy-cat-game',
     repo: 'puffy-cat-game'
@@ -39,7 +39,7 @@ export const data = [
     id: '05',
     imageid: 'daily-check.png',
     name: 'Daily Mood Check ',
-    description: 'A functional mood tracker built with React JS that uses Google Forms as an API.',
+    description: 'A mood tracker built with React and Axios that uses Google Forms as an API.',
     languages: 'React JS, CSS',
     link: 'https://katarzyna-kw.github.io/daily-check',
     repo: 'daily-check'
@@ -48,7 +48,7 @@ export const data = [
     id: '06',
     imageid: 'guess.png',
     name: 'Guess the Word Game ',
-    description: 'A guessing game in which the player has 8 attempt to guess the correct word. Javascript coded for Skillcrush challenge/learning purposes using provided HTML/CSS.',
+    description: 'A guessing game in which the player has 8 attempts to guess the correct word. Javascript coded for a Skillcrush project using provided HTML/CSS.',
     languages: 'Javascript, HTML, CSS',
     link: 'https://katarzyna-kw.github.io/guess-the-word-game',
     repo: 'guess-the-word-game'
@@ -75,7 +75,7 @@ export const data = [
     id: '09',
     imageid: 'quote-generator.png',
     name: 'Quote Generator',
-    description: 'A responsive quote generator made using vanilla JS, HTML, and CSS for learning purposes.',
+    description: 'A responsive quote generator made using vanilla Javascript, HTML, and CSS for learning purposes.',
     languages: 'Javascript, HTML, CSS',
     link: 'https://katarzyna-kw.github.io/quote-generator',
     repo: 'quote-generator'
@@ -111,7 +111,7 @@ export const data = [
     id: '13',
     imageid: 'rogue-pickings.png',
     name: 'Rogue Pickings',
-    description: 'A responsive website coded with CSS and HTML using an Abobe Photoshop prototype for a Skillcrush project.',
+    description: 'A responsive website coded with CSS and HTML for a Skillcrush project.',
     languages: 'HTML, CSS',
     link: 'https://katarzyna-kw.github.io/rogue-pickings/',
     repo: 'rogue-pickings'
