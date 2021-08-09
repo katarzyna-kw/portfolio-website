@@ -36,6 +36,7 @@ function Swipe() {
 
     return (
       <Swiper
+        loop={true}
         spaceBetween={0}
         slidesPerView={1}
         navigation
