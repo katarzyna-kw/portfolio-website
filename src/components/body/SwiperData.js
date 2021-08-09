@@ -6,16 +6,18 @@ export const data = [
     description: 'A responsive multi-page website for a Chicago-based youth basketball company. Designed and built using React, JSX, and CSS.',
     languages: 'React, JSX, CSS',
     link: 'https://606basketballacademy.com/',
-    repo: '606-master'
+    repo: '606-master',
+    public: false,
   },
   {
     id: '02',
     imageid: 'github-gallery.png',
     name: 'Github Repo Gallery',
-    description: 'A gallery that displays public repos with search functionality. Coded using Javascript and Github REST API for a Skillcrush project. HTML/CSS template customized to match portfolio website and to enable light/dark themes to enhance user experience.',
+    description: 'A gallery that displays public repos with search functionality. Coded using Javascript and Github REST API for a Skillcrush project. HTML/CSS template customized to match portfolio website and to enable light/dark themes for enchanced user experience.',
     languages: 'Javascript, CSS, HTML',
     link: 'https://katarzyna-kw.github.io/github-repo-gallery',
-    repo: 'github-repo-gallery'
+    repo: 'github-repo-gallery',
+    public: true,
   }, 
   {
     id: '03',
@@ -24,7 +26,8 @@ export const data = [
     description: 'A Puffy Cat game built with vanilla Javascript, HTML5 canvas, and CSS in the style of Flappy Bird. Custom player and background graphics created in Adobe Photoshop.',
     languages: 'Javascript, CSS, HTML5',
     link: 'https://katarzyna-kw.github.io/puffy-cat-game',
-    repo: 'puffy-cat-game'
+    repo: 'puffy-cat-game',
+    public: true,
   },
   {
     id: '04',
@@ -33,7 +36,8 @@ export const data = [
     description: 'A to-do user interface coded using React for a Skillcrush project. Local storage persists data for user. CSS starter template customization.',
     languages: 'React, JSX, CSS',
     link: 'https://katarzyna-kw.github.io/sticky-notes',
-    repo: 'sticky-notes'
+    repo: 'sticky-notes',
+    public: true,
   }, 
   {
     id: '05',
@@ -42,7 +46,8 @@ export const data = [
     description: 'A mood tracker built with React and Axios that uses Google Forms as an API.',
     languages: 'React JS, CSS',
     link: 'https://katarzyna-kw.github.io/daily-check',
-    repo: 'daily-check'
+    repo: 'daily-check',
+    public: true,
   }, 
   {
     id: '06',
@@ -51,7 +56,8 @@ export const data = [
     description: 'A guessing game in which the player has 8 attempts to guess the correct word. Javascript coded for a Skillcrush project using provided HTML/CSS.',
     languages: 'Javascript, HTML, CSS',
     link: 'https://katarzyna-kw.github.io/guess-the-word-game',
-    repo: 'guess-the-word-game'
+    repo: 'guess-the-word-game',
+    public: true,
   },
   {
     id: '07',
@@ -60,7 +66,8 @@ export const data = [
     description: 'An interactive 2020 U.S. presidential election map built using vanilla Javascript for a Skillcrush project. HTML/CSS starter template customization.',
     languages: 'Javascript, CSS, HTML',
     link: 'https://katarzyna-kw.github.io/election-map-project',
-    repo: 'election-map-project'
+    repo: 'election-map-project',
+    public: true,
   },
   {
     id: '08',
@@ -69,7 +76,8 @@ export const data = [
     description: 'A responsive clock with dark and light modes built with vanilla Javascript for a Skillcrush project. HTML/CSS starter template customization.',
     languages: 'Javascript, HTML, CSS',
     link: 'https://katarzyna-kw.github.io/lolcat',
-    repo: 'lolcat'
+    repo: 'lolcat',
+    public: true,
   },
   {
     id: '09',
@@ -78,7 +86,8 @@ export const data = [
     description: 'A responsive quote generator made using vanilla Javascript, HTML, and CSS for learning purposes.',
     languages: 'Javascript, HTML, CSS',
     link: 'https://katarzyna-kw.github.io/quote-generator',
-    repo: 'quote-generator'
+    repo: 'quote-generator',
+    public: true,
   },
   {
     id: '10',
@@ -87,7 +96,8 @@ export const data = [
     description: 'A responsive mock technical documentation page about CSS built for a freecodecamp project using HTML and CSS.',
     languages: 'HTML, CSS',
     link: 'https://katarzyna-kw.github.io/fcc-challenge-4',
-    repo: 'fcc-challenge-4'
+    repo: 'fcc-challenge-4',
+    public: true,
   },
   {
     id: '11',
@@ -96,7 +106,8 @@ export const data = [
     description: 'A responsive mock website for a Chicago-based Polish language school built for a freecodecamp project using HTML and CSS.',
     languages: 'HTML, CSS',
     link: 'https://katarzyna-kw.github.io/fcc-challenge-3',
-    repo: 'fcc-challenge-3'
+    repo: 'fcc-challenge-3',
+    public: true,
   },
   {
     id: '12',
@@ -105,7 +116,8 @@ export const data = [
     description: 'A responsive website coded with CSS and HTML using an Abobe Photoshop prototype for a Skillcrush project.',
     languages: 'HTML, CSS',
     link: 'https://katarzyna-kw.github.io/unplugged/',
-    repo: 'unplugged'
+    repo: 'unplugged',
+    public: true,
   },
   {
     id: '13',
@@ -114,7 +126,8 @@ export const data = [
     description: 'A responsive website coded with CSS and HTML for a Skillcrush project.',
     languages: 'HTML, CSS',
     link: 'https://katarzyna-kw.github.io/rogue-pickings/',
-    repo: 'rogue-pickings'
+    repo: 'rogue-pickings',
+    public: true,
   },
   // {
   //   id: '14',
@@ -123,7 +136,8 @@ export const data = [
   //   description: 'Created for learning purposes using React JS and Node JS Express/PostgreSQL for server. Work in Progress. Currently renders videos from database and increments likes/dislikes for each video.',
   //   languages: 'React JS, Javascript through Node JS, CSS',
   //   link: 'youtube-clone',
-  //   repo: 'youtube-clone'
+  //   repo: 'youtube-clone',
+    // public: true,
   // },
   // {
   //   id: '15',
@@ -132,6 +146,7 @@ export const data = [
   //   description: 'An academic exercise writing code to mimic lodash library methods such as first, last, forEach, filter, map, and reduce.',
   //   languages: 'Javascript',
   //   link: 'lodash-clone',
-  //   repo: 'lodash-clone'
+  //   repo: 'lodash-clone',
+    // public: true,
   // }
 ];
