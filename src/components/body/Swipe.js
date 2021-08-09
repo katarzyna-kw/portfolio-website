@@ -12,7 +12,6 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import './Swiper.css'
-// import {SwiperCardList} from './SwiperCardList'
 
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
@@ -31,7 +30,23 @@ function Swipe() {
         onSlideChange={() => console.log('slide change')}
       >
 
-        <SwiperSlide>
+        {data.map(project => (
+            <SwiperSlide key={project.id}>
+                <div className="cardWrapper">
+                    <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${project.imageid}`} alt='screencapture' 
+                    />
+                    <div    className="cardTextWrapper">
+                        <h3>{project.name} <span>/// Built using {project.languages}</span></h3>
+                        <p>{project.description}</p>
+                        <div className="cardLinks"><a href={`${project.link}`} target="_blank" rel="noreferrer">Live link</a></div>
+                        <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${project.repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
+                    </div>
+                </div>
+            </SwiperSlide>
+        ))}
+
+
+        {/* <SwiperSlide>
             <div className="cardWrapper">
                 <a href={`${data[0].link}`} target="_blank" rel="noreferrer">
                     <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[0].imageid}`} alt='screencapture' />
@@ -82,7 +97,7 @@ function Swipe() {
                     <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[3].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
                 </div>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* <SwiperSlide>
             <div className="cardWrapper">
                 <a href={`https://katarzyna-kw.github.io/${data[4].link}`} target="_blank" rel="noreferrer">
@@ -96,7 +111,7 @@ function Swipe() {
                 </div>
             </div>
         </SwiperSlide> */}
-        <SwiperSlide>
+        {/* <SwiperSlide>
             <div className="cardWrapper">
                 <a href={`${data[5].link}`} target="_blank" rel="noreferrer">
                     <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[5].imageid}`} alt='screencapture' />
@@ -108,7 +123,7 @@ function Swipe() {
                     <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[5].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
                 </div>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* <SwiperSlide>
             <div className="cardWrapper">
                 <a href={`https://katarzyna-kw.github.io/${data[6].link}`} target="_blank" rel="noreferrer">
@@ -122,7 +137,7 @@ function Swipe() {
                 </div>
             </div>
         </SwiperSlide> */}
-        <SwiperSlide>
+        {/* <SwiperSlide>
             <div className="cardWrapper">
                 <a href={`${data[7].link}`} target="_blank" rel="noreferrer">
                     <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${data[7].imageid}`} alt='screencapture' />
@@ -211,7 +226,7 @@ function Swipe() {
                     <div className="cardLinks"><a href={`https://github.com/katarzyna-kw/${data[13].repo}`} target="_blank" rel="noreferrer">Github repo</a></div>
                 </div>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         </Swiper>
     );
