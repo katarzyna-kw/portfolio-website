@@ -47,12 +47,13 @@ h2 {
 .about-content a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--theme-swiper-link);
+    color: var(--theme-body-about-link);
     font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .about-content a:hover {
-    color: var(--theme-swiper-link-hover);
+    color: var(--theme-body-about-link-hover);
   }
 
 #portfolio {
