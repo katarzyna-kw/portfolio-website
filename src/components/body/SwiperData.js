@@ -6,7 +6,7 @@ export const data = [
     description: 'A responsive multi-page website for a Chicago-based youth basketball company. Designed and built using React, JSX, and CSS.',
     languages: 'React, JSX, CSS',
     link: 'https://606basketballacademy.com/',
-    repo: '606-academy'
+    repo: '606-master'
   },
   {
     id: '02',
