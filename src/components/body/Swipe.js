@@ -1,5 +1,3 @@
-import React, {useState, useEffect} from 'react';
-// import {SwiperCard} from './SwiperCard'
 import { data } from './SwiperData'
 
 // Import Swiper React components

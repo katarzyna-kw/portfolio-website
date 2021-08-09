@@ -3,8 +3,8 @@ export const data = [
     id: '01',
     imageid: '606-academy.png',
     name: '606 Academy',
-    description: 'A responsive website for a Chicago-based youth basketball company built with React, HTML, and CSS.',
-    languages: 'React JS, HTML, CSS',
+    description: 'A responsive multi-page website for a Chicago-based youth basketball company. Designed and built using React, JSX, and CSS.',
+    languages: 'React, JSX, CSS',
     link: 'https://606basketballacademy.com/',
     repo: '606-academy'
   },
@@ -12,7 +12,7 @@ export const data = [
     id: '02',
     imageid: 'github-gallery.png',
     name: 'Github Repo Gallery',
-    description: 'Displays public repos with search functionality. Javascript coded for Skillcrush challenge/learning purposes. HTML/CSS template customized to match portfolio website and to enable light/dark themes to enhance user experience.',
+    description: 'Displays public repos with search functionality. Coded using Javascript for a Skillcrush project. HTML/CSS template customized to match portfolio website and to enable light/dark themes to enhance user experience.',
     languages: 'Javascript, CSS, HTML',
     link: 'https://katarzyna-kw.github.io/github-repo-gallery',
     repo: 'github-repo-gallery'
@@ -21,7 +21,7 @@ export const data = [
     id: '03',
     imageid: 'puffy-cat.png',
     name: 'Puffy Cat Game ',
-    description: 'Puffy Cat version of Flappy Bird coded with Javascript and HTML5 canvas and designed with custom graphics.',
+    description: 'Puffy Cat version of Flappy Bird coded with Javascript and HTML5 canvas. Designed with custom graphics.',
     languages: 'Javascript, CSS, HTML5',
     link: 'https://katarzyna-kw.github.io/puffy-cat-game',
     repo: 'puffy-cat-game'
@@ -30,8 +30,8 @@ export const data = [
     id: '04',
     imageid: 'sticky-notes.png',
     name: 'Sticky Notes Generator ',
-    description: 'To-do app coded using React JS. HTML/CSS starter template customization.',
-    languages: 'React JS, CSS',
+    description: 'A to-do user interface coded using React for a Skillcrush project. Local storage persists data for user. CSS starter template customization.',
+    languages: 'React, JSX, CSS',
     link: 'https://katarzyna-kw.github.io/sticky-notes',
     repo: 'sticky-notes'
   }, 

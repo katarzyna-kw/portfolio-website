@@ -5,12 +5,18 @@
 
 .swiper-wrapper {
   padding-inline-start: 0;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 img {
     width: 85%;
+    border: 1px solid #1E2D24;
+    margin-top: -1px;
 }
+
+/* .cardWrapper {
+  background-color: #F0E6EF;
+} */
 
 .cardTextWrapper {
   font-family: 'Poppins', sans-serif;
@@ -18,6 +24,7 @@ img {
   padding: 0 1rem 0 1rem;
   color: var(--theme-swiper-font);
   margin: 15px;
+
 }
 
 .cardTextWrapper h3 {
@@ -32,8 +39,8 @@ img {
 
 .cardTextWrapper p {
   font-weight: normal;
-  font-size: 1.1em;
-  text-align: center;
+  font-size: 1em;
+  text-align: left;
   line-height: 1.5em;
 }
 
@@ -41,7 +48,7 @@ img {
   text-decoration: none;
   font-weight: bold;
   color: var(--theme-swiper-link);
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .cardTextWrapper a:hover {
