@@ -10,6 +10,8 @@
     "@testing-library/user-event": "^13.1.9",
     "bootstrap": "^5.0.2",
     "css-what": "^5.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "node-sass": "^6.0.1",
     "pure-react-carousel": "^1.27.6",
     "react": "^17.0.2",
@@ -19,6 +21,7 @@
     "react-responsive": "^8.2.0",
     "react-responsive-carousel": "^3.2.19",
     "react-router-dom": "^5.2.0",
+    "react-test-renderer": "^17.0.2",
     "sass-loader": "^12.1.0",
     "swiper": "^6.7.5",
     "web-vitals": "^2.1.0"

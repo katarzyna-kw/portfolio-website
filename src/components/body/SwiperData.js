@@ -125,8 +125,8 @@ export const data = [
     name: 'Rogue Pickings',
     description: 'A responsive website coded with CSS and HTML for a Skillcrush project.',
     languages: 'HTML, CSS',
-    link: 'https://katarzyna-kw.github.io/rogue-pickings/',
-    repo: 'rogue-pickings',
+    link: 'https://katarzyna-kw.github.io/responsive-sites-rogue-pickings/',
+    repo: 'responsive-sites-rogue-pickings/',
     public: true,
   },
   // {
