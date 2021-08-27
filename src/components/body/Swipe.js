@@ -20,8 +20,8 @@ function Swipe() {
     let PortfolioList = data.map(project => 
             <SwiperSlide key={project.id}>
             <div className="cardWrapper">
-                <img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${project.imageid}`} alt='screencapture' 
-                />
+              <a href={`${project.link}`} target="_blank" rel="noreferrer"><img src={`https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/img/portfolio/${project.imageid}`} alt='screencapture' 
+                /></a>
                 <div    className="cardTextWrapper">
                     <h3>{project.name} <span>/// Built using {project.languages}</span></h3>
                     <p>{project.description}</p>
