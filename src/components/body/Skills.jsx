@@ -14,18 +14,12 @@ function Skills() {
                         <li><span>HTML</span></li>
                         <li><span>CSS</span></li>
                         <li><span>Git</span></li>
-                        <li><span>Photoshop</span></li>
+                        <li><span>WordPress/PHP</span></li>
+                        <li><span>Figma & Photoshop</span></li>
                         <li><span>PostgreSQL</span></li>
-                        <li><span>Jasmine testing</span></li>
+                        <li><span>Jasmine & Jest testing</span></li>
                     </ul>
                 </div>
-                {/* <div className="skills-content-col2">
-                    <h5>Limited Proficiency</h5>
-                    <ul>
-                        <li>PostgreSQL</li>
-                        <li>Jasmine testing</li>
-                    </ul>
-                </div> */}
                 <div className="skills-content-col3">
                     <h5>Fluent Languages</h5>
                     <ul>
