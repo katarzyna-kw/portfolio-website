@@ -13,7 +13,7 @@ function About() {
               <p>
                 I get excited about tackling new challenges, lifelong learning, and making things beautiful -- all of which led me down the path of front-end development!
               </p>
-              <p>My <a href="#skills">programming skills</a> include Javascript, React, CSS, and HTML. I love colors, animals, and Dionne Warwick.
+              <p>My <a href="#skills">programming skills</a> include Javascript, React, PHP, CSS, and HTML. I love colors, animals, and Dionne Warwick.
               </p>
             </div>
             {/* <div class="about-skills">
