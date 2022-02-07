@@ -11,10 +11,11 @@ function Skills() {
                     <ul>
                         <li><span>JavaScript</span></li>
                         <li><span>React JS</span></li>
+                        <li><span>Python</span></li>
                         <li><span>HTML</span></li>
                         <li><span>CSS</span></li>
                         <li><span>Git</span></li>
-                        <li><span>WordPress/PHP</span></li>
+                        <li><span>PHP</span></li>
                         <li><span>Figma & Photoshop</span></li>
                         <li><span>PostgreSQL</span></li>
                         <li><span>Jasmine & Jest testing</span></li>
