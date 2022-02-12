@@ -1,5 +1,5 @@
-import './styles.css'
-import '../../App.css'
+import '../styles.css'
+import '../../../App.css'
 
 function Skills() {
   return (

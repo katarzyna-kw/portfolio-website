@@ -1,9 +1,9 @@
 import './styles.css'
 import React from "react";
-import About from './About';
-import Portfolio from './Portfolio';
-import Skills from './Skills';
-import Contact from './Contact';
+import About from './About.component/About';
+import Portfolio from './Portfolio/index';
+import Skills from './Skills.component/Skills';
+import Contact from './Contact.component/Contact';
 
 
 function Body() {
