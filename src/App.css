@@ -55,8 +55,6 @@
   --theme-swiper-selected-bullet: #FBFF12;
   --theme-swiper-bullets: #dddddd;
   --theme-toggle: #F96707!important;
-  /* ddb0ff */
-  /* FBFF12 */
 }
 
 :root {
@@ -76,31 +74,4 @@ body {
   text-align: center;
   margin: 0;
   padding-bottom: 10px;
-}
-
-.swiper-container {
-  width: 480px;
-}
-
-.swiper-wrapper {
-  padding-inline-start: 0;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-}
-
-@media screen and (min-width: 640px) {
-  .swiper-container {
-    width: 640px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .swiper-container {
-    width: 768px;
-  }
 }
