@@ -1,66 +1,73 @@
-import React, {useState} from 'react';
-import { Switch, FormControlLabel, FormGroup, withStyles } from '@material-ui/core'
-import './styles.css';
+import React, { useState } from "react";
+import {
+  Switch,
+  FormControlLabel,
+  FormGroup,
+  withStyles,
+} from "@material-ui/core";
+import headerData from "./headerData";
+import "./styles.css";
 
-function Header({setTheme}) {
-
+function Header({ setTheme }) {
   const [checked, setChecked] = useState(false);
 
   const handleToggle = (event) => {
-    setChecked(event.target.checked)
-    };
+    setChecked(event.target.checked);
+  };
 
   const onModeToggle = () => {
-    setTheme((theme) => (theme === 'pastel' ? 'neon' : 'pastel'));
-  }
+    setTheme((theme) => (theme === "pastel" ? "neon" : "pastel"));
+  };
 
   const PurpleSwitch = withStyles({
     switchBase: {
-      color: '#1E2D24',
-      '&$checked': {
-        color: '#e45ada',
+      color: "#1E2D24",
+      "&$checked": {
+        color: "#e45ada",
       },
-      '&$checked + $track': {
-        backgroundColor: '#F0E6EF',
+      "&$checked + $track": {
+        backgroundColor: "#F0E6EF",
       },
     },
     checked: {},
     track: {},
   })(Switch);
-  
+
   return (
     <div className="header" data-testid="Header">
       <div className="logo-container">
-        <div className="logo">Hi, I'm <span>Katarzyna;</span>
+        <div className="logo">
+          Hi, I'm <span>Katarzyna;</span>
         </div>
-        <div className="h2">a front-end developer
-        </div>
+        <div className="h2">a front-end developer</div>
       </div>
       <div id="navbar">
         <ul className="nav">
+          {headerData.map((item) => (
+            <li key={item.title}>
+              <a className="nav-link" href={item.link}>
+                {item.title}
+              </a>
+            </li>
+          ))}
           <li>
-            <a className="nav-link" href="#about">About</a>
-          </li>
-          <li>
-            <a className="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a className="nav-link" href="#skills">Skills</a>
-          </li>
-          <li>
-            <a className="nav-link" href="#contact">Contact</a>
-          </li>
-          <li>
-          <FormGroup>
-            <FormControlLabel 
-              control={<PurpleSwitch size="small" checked={checked} onChange={handleToggle} onClick={onModeToggle} className="toggleStyle" />}
-            />
-          </FormGroup>
+            <FormGroup>
+              <FormControlLabel
+                control={
+                  <PurpleSwitch
+                    size="small"
+                    checked={checked}
+                    onChange={handleToggle}
+                    onClick={onModeToggle}
+                    className="toggleStyle"
+                  />
+                }
+              />
+            </FormGroup>
           </li>
         </ul>
       </div>
     </div>
-  
   );
 }
 
