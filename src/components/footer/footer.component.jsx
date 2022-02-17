@@ -1,13 +1,10 @@
-import './styles.css'
-// import '../../theme.css'
+import "./styles.css";
 
 function Footer() {
   return (
     <div className="footer" data-testid="Footer">
-      <p className="footer-text">© 2022 Katarzyna Wegrzynowicz
-      </p>
+      <p className="footer__text">© 2022 Katarzyna Wegrzynowicz</p>
     </div>
-  
   );
 }
 
