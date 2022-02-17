@@ -1,122 +1,113 @@
-/* header styles*/
-.header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-   }
+.header__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-  /*logo/h1 styles*/
-  .logo {
-    font-family: 'Arapey', serif;
-    font-style: italic;
-    font-size: 1.6em;
-    text-transform: lowercase;
-    margin-bottom: 0;
-    margin-top: 30px;
-    width: 100%;
-    color: var(--theme-header-logo);
+.header__logo {
+  font-family: "Arapey", serif;
+  font-style: italic;
+  font-size: 1.6em;
+  text-transform: lowercase;
+  margin-bottom: 0;
+  margin-top: 30px;
+  width: 100%;
+  color: var(--theme-header-logo);
+}
+
+.header__logo span {
+  font-family: "Montserrat", sans serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: var(--theme-header-logo-span) !important;
+}
+
+.header__subhead {
+  font-family: "Arapey", serif;
+  font-size: 1.5em;
+  margin-top: -15px;
+  padding-top: 9px;
+  margin-bottom: 10px;
+  color: var(--theme-header-logo);
+}
+
+#navbar {
+  font-family: "Montserrat", sans serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+}
+
+.nav__list--items {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0e6ef;
+}
+
+.nav__list--links {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--theme-header-navbar);
+  font-weight: 500;
+}
+
+.nav__list--links:hover {
+  text-decoration: none;
+  color: var(--theme-header-navbar-hover);
+  font-weight: 600;
+  cursor: cell;
+}
+
+toggle-style {
+  color: var(--theme-toggle);
+}
+
+.MuiFormControlLabel-root {
+  margin: 0 !important;
+  justify-content: center !important;
+}
+
+@media (min-width: 875px) {
+  .header {
+    width: 50%;
+    margin-top: 40px;
   }
 
-/*logo in second font for emphasis*/
-  .logo span {
-    font-family: 'Montserrat', sans serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.3em;
-    color: var(--theme-header-logo-span)!important;
+  .header__logo {
+    font-size: 2.7rem;
   }
 
-/*h2 text styles*/
-  .h2 {
-    font-family: 'Arapey', serif;
-    font-size: 1.5em;
-    margin-top: -15px;
-    padding-top: 9px;
-    margin-bottom: 10px;
-    color: var(--theme-header-logo);
-
+  .header__logo span {
+    font-size: 2.6rem;
+    color: #424b54;
   }
 
-/*navigation styles*/
+  .header__subhead {
+    font-size: 2rem;
+    margin-top: -20px;
+  }
+
   #navbar {
-    font-family:'Montserrat', sans serif;
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 0;
-    width: 100%;
-    padding: 0;
+    width: 45%;
+    margin-top: 40px;
   }
 
-  .nav {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav li {
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #F0E6EF;
+  .nav__list {
+    display: flex;
+    justify-content: space-evenly;
   }
 
-  /* Style the navbar links */
-  .header a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--theme-header-navbar);
-    font-weight: 500;
+  .nav__list--items {
+    border-bottom: none;
   }
-  
-  /* Change the background color on mouse-over */
-  .header a:hover {
-    text-decoration: none;
-    color: var(--theme-header-navbar-hover);
-    font-weight: 600;
-    cursor: cell;
-  }
-
-  toggle-style {
-    color: var(--theme-toggle);
-  }
-
-  .MuiFormControlLabel-root {
-    margin: 0!important;
-    justify-content: center!important;
-  }
-
-  @media (min-width: 875px) {
-
-    .logo-container {
-      width: 50%;
-      margin-top: 40px;
-    }
-    
-    .logo {
-      font-size: 2.7rem;
-    }
-
-    .logo span {
-      font-size: 2.6rem;
-      color: #424B54;
-    }
-
-    .h2 {
-      font-size: 2rem;
-      margin-top: -20px;
-    }
-
-    #navbar {
-      width: 45%;
-      margin-top: 40px;
-    }
-
-    .nav {
-      display: flex;
-      justify-content: space-evenly;
-    }
-
-    .nav li {
-      border-bottom: none;
-    }
 }

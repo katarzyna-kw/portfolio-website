@@ -34,23 +34,23 @@ function Header({ setTheme }) {
   })(Switch);
 
   return (
-    <div className="header" data-testid="Header">
-      <div className="logo-container">
-        <div className="logo">
+    <div className="header__container" data-testid="Header">
+      <div className="header">
+        <div className="header__logo">
           Hi, I'm <span>Katarzyna;</span>
         </div>
-        <div className="h2">a front-end developer</div>
+        <div className="header__subhead">a front-end developer</div>
       </div>
       <div id="navbar">
-        <ul className="nav">
+        <ul className="nav__list">
           {headerData.map((item) => (
-            <li key={item.title}>
-              <a className="nav-link" href={item.link}>
+            <li className="nav__list--items" key={item.title}>
+              <a className="nav__list--links" href={item.link}>
                 {item.title}
               </a>
             </li>
           ))}
-          <li>
+          <li className="nav__list--items">
             <FormGroup>
               <FormControlLabel
                 control={
