@@ -5,54 +5,13 @@
   align-items: center;
 }
 
-h2 {
+.body__header {
   background-color: var(--theme-page-h2-subheader-bg);
   color: var(--theme-page-h2-subheader-font);
   width: 100%;
   font-family: "Arapey", serif;
   font-style: italic;
   text-transform: lowercase;
-}
-
-#about {
-  margin: 30px 10px 30px 10px;
-  font-size: 1.1rem;
-  line-height: 1.5em;
-  color: var(--theme-body-about-text);
-}
-
-#about .img {
-  width: 50%;
-  max-width: 200px;
-  border: 3px solid white;
-  border-radius: 50%;
-  padding: 5px;
-  margin: 0 60px 10px 0;
-  cursor: cell;
-  float: left;
-  shape-outside: circle(40%);
-}
-
-#about .img:hover {
-  transform: scale(1.1);
-}
-
-.about-content p {
-  line-height: 1.7em;
-  text-align: left;
-  padding-left: 1rem;
-}
-
-.about-content a {
-  text-decoration: none;
-  font-weight: bold;
-  color: var(--theme-body-about-link);
-  font-size: 1em;
-  font-family: "Montserrat", sans-serif;
-}
-
-.about-content a:hover {
-  color: var(--theme-body-about-link-hover);
 }
 
 #portfolio {
@@ -139,11 +98,6 @@ h2 {
 }
 
 @media (min-width: 700px) {
-  #about {
-    width: 70%;
-    font-size: 1.2rem;
-  }
-
   #portfolio,
   #skills,
   #contact {
@@ -161,25 +115,19 @@ h2 {
     flex-basis: 45%;
   }
 
-  h2 {
+  .body__header {
     font-size: 1.8em;
   }
 }
 
 @media (min-width: 1090px) {
-  #about {
-    width: 60%;
-    font-size: 1.2rem;
-    line-height: 2.6rem;
-  }
-
   #portfolio,
   #skills,
   #contact {
     width: 60%;
   }
 
-  h2 {
+  .body__header {
     font-size: 1.9em;
   }
 }
