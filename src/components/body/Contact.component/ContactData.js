@@ -1,16 +1,16 @@
 const contactLinks = [
   {
-    "icon": "fa fa-envelope",
-    "link": "mailto: katarzyna.koch@gmail.com"
+    icon: "fa fa-envelope",
+    link: "mailto: katarzyna.koch@gmail.com",
   },
   {
-    "icon": "fa fa-github",
-    "link": "https://github.com/katarzyna-kw/"
+    icon: "fa fa-github",
+    link: "https://github.com/katarzyna-kw/",
   },
   {
-    "icon":"fa fa-linkedin-square",
-    "link": "https://www.linkedin.com/in/katarzyna-kw"
-  }
-]
+    icon: "fa fa-linkedin-square",
+    link: "https://www.linkedin.com/in/katarzyna-kw",
+  },
+];
 
-export default contactLinks
+export default contactLinks;

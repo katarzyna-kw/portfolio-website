@@ -68,35 +68,6 @@
   padding: 0;
 }
 
-#contact {
-  width: 100%;
-}
-
-#contact ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: stretch;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#contact li {
-  display: block;
-  list-style-type: none;
-}
-
-.icons,
-.icons a {
-  font-size: 3rem;
-  color: var(--theme-page-contact-icons);
-  cursor: cell;
-}
-
-.icons a:hover {
-  color: var(--theme-page-contact-icons-hover);
-}
-
 @media (min-width: 700px) {
   #portfolio,
   #skills,

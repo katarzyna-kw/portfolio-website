@@ -1,0 +1,40 @@
+#contact {
+  width: 100%;
+}
+
+.contact__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contact__list--icons {
+  display: block;
+  list-style-type: none;
+}
+
+.contact__list--icons,
+.contact__list--icons a {
+  font-size: 3rem;
+  color: var(--theme-page-contact-icons);
+  cursor: cell;
+}
+
+.contact__list--icons a:hover {
+  color: var(--theme-page-contact-icons-hover);
+}
+
+@media (min-width: 700px) {
+  #contact {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1090px) {
+  #contact {
+    width: 60%;
+  }
+}
