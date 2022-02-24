@@ -1,0 +1,27 @@
+#portfolio {
+  width: 100%;
+}
+
+#portfolio .portfolio-images {
+  width: 100%;
+  border: 1px solid #424b54;
+}
+
+#portfolio .portfolio-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 700px) {
+  #portfolio {
+    width: 70%;
+  }
+}
+
+
+@media (min-width: 1090px) {
+  #portfolio {
+    width: 60%
+  }
+}
