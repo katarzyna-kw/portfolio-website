@@ -1,22 +1,21 @@
 import React from "react";
+import bw from '../../../assets/kw--bw.png'
+import color from '../../../assets/kw.png'
 
 function Headshot() {
   return (
-    <img
-      className="about__content--img"
-      src={
-        "https://github.com/katarzyna-kw/portfolio-website/blob/main/public/img/headshot-circle-bw.png?raw=true"
-      }
-      alt="Katarzyna Wegrzynowicz"
-      onMouseOver={(e) =>
-        (e.currentTarget.src =
-          "https://github.com/katarzyna-kw/portfolio-website/blob/main/public/img/headshot-circle.png?raw=true")
-      }
-      onMouseOut={(e) =>
-        (e.currentTarget.src =
-          "https://github.com/katarzyna-kw/portfolio-website/blob/main/public/img/headshot-circle-bw.png?raw=true")
-      }
-    />
+    <div class="figure">
+      <img
+        className="about__content--img img--main"
+        src={bw}
+        alt="Katarzyna Wegrzynowicz smiling at camera"
+      />
+      <img
+        className="about__content--img img--hover"
+        src={color}
+        alt="Katarzyna Wegrzynowicz smiling at camera"
+      />
+    </div>
   );
 }
 
