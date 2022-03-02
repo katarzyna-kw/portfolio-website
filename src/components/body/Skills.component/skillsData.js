@@ -5,11 +5,11 @@ const skillsData = [
       "JavaScript",
       "React JS",
       "Python",
+      "Django",
       "HTML",
       "CSS",
       "Git",
       "PHP",
-      "Figma & Photoshop",
       "PostgreSQL",
       "Jasmine & Jest testing"
     ]
