@@ -39,7 +39,7 @@ function Header({ setTheme }) {
         <div className="header__logo">
           Hi, I'm <span>Katarzyna;</span>
         </div>
-        <div className="header__subhead">a front-end developer</div>
+        <div className="header__subhead">a full-stack developer</div>
       </div>
       <div id="navbar">
         <ul className="nav__list">
