@@ -6,7 +6,7 @@ export const data = [
     description:
       "A responsive multi-page website for a Chicago-based youth basketball company.",
     languages: "React, JSX, CSS",
-    link: "https://606basketballacademy.com/",
+    link: "https://606academy.com/",
     repo: "606-master",
     public: false,
   },
@@ -120,26 +120,26 @@ export const data = [
     repo: "fcc-challenge-3",
     public: true,
   },
-  {
-    id: "12",
-    imageid: "unplugged.png",
-    name: "Unplugged",
-    description:
-      "A responsive website coded with CSS and HTML using an Abobe Photoshop prototype for a Skillcrush project.",
-    languages: "HTML, CSS",
-    link: "https://katarzyna-kw.github.io/unplugged/",
-    repo: "unplugged",
-    public: true,
-  },
-  {
-    id: "13",
-    imageid: "rogue-pickings.png",
-    name: "Rogue Pickings",
-    description:
-      "A responsive website coded with CSS and HTML for a Skillcrush project.",
-    languages: "HTML, CSS",
-    link: "https://katarzyna-kw.github.io/responsive-sites-rogue-pickings/",
-    repo: "responsive-sites-rogue-pickings/",
-    public: true,
-  },
+  // {
+  //   id: "12",
+  //   imageid: "unplugged.png",
+  //   name: "Unplugged",
+  //   description:
+  //     "A responsive website coded with CSS and HTML using an Abobe Photoshop prototype for a Skillcrush project.",
+  //   languages: "HTML, CSS",
+  //   link: "https://katarzyna-kw.github.io/unplugged/",
+  //   repo: "unplugged",
+  //   public: true,
+  // },
+  // {
+  //   id: "13",
+  //   imageid: "rogue-pickings.png",
+  //   name: "Rogue Pickings",
+  //   description:
+  //     "A responsive website coded with CSS and HTML for a Skillcrush project.",
+  //   languages: "HTML, CSS",
+  //   link: "https://katarzyna-kw.github.io/responsive-sites-rogue-pickings/",
+  //   repo: "responsive-sites-rogue-pickings/",
+  //   public: true,
+  // },
 ];
