@@ -76,17 +76,17 @@ export const data = [
     repo: "election-map-project",
     public: true,
   },
-  {
-    id: "08",
-    imageid: "cat-clock.png",
-    name: "Cat Clock",
-    description:
-      "A responsive clock with dark and light modes built with vanilla Javascript for a Skillcrush project. HTML/CSS starter template customization.",
-    languages: "Javascript, HTML, CSS",
-    link: "https://katarzyna-kw.github.io/lolcat",
-    repo: "lolcat",
-    public: true,
-  },
+  // {
+  //   id: "08",
+  //   imageid: "cat-clock.png",
+  //   name: "Cat Clock",
+  //   description:
+  //     "A responsive clock with dark and light modes built with vanilla Javascript for a Skillcrush project. HTML/CSS starter template customization.",
+  //   languages: "Javascript, HTML, CSS",
+  //   link: "https://katarzyna-kw.github.io/lolcat",
+  //   repo: "lolcat",
+  //   public: true,
+  // },
   {
     id: "09",
     imageid: "poketeam.png",
