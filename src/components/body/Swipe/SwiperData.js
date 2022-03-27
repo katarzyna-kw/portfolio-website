@@ -89,14 +89,14 @@ export const data = [
   },
   {
     id: "09",
-    imageid: "quote-generator.png",
-    name: "Quote Generator",
+    imageid: "poketeam.png",
+    name: "Pokemon Team Generator",
     description:
-      "A responsive quote generator made using vanilla Javascript, HTML, and CSS for learning purposes.",
+      "A responsive Pokemon team generator made using PokeAPI, Javascript, CSS, and HTML.",
     languages: "Javascript, HTML, CSS",
-    link: "https://katarzyna-kw.github.io/quote-generator",
-    repo: "quote-generator",
-    public: true,
+    link: "https://poketeam-generator.herokuapp.com/",
+    repo: "pokemon-theme-team",
+    public: false,
   },
   {
     id: "10",
