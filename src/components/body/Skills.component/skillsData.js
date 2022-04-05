@@ -6,11 +6,12 @@ const skillsData = [
       "React JS",
       "Python",
       "Django",
+      "PostgreSQL",
+      "Responsive Web Design", 
       "HTML",
       "CSS",
       "Git",
       "PHP",
-      "PostgreSQL",
       "Jasmine & Jest testing"
     ]
   },
