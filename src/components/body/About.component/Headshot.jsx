@@ -1,6 +1,6 @@
 import React from "react";
-import bw from '../../../assets/kw--bw.png'
-import color from '../../../assets/kw.png'
+import bw from '../../../assets/kat-wegrzynowicz-bw.png'
+import color from '../../../assets/kat-wegrzynowicz.png'
 
 function Headshot() {
   return (
