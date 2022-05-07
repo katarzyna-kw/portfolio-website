@@ -1,6 +1,17 @@
 export const data = [
   {
     id: "01",
+    imageid: "saved-for-a-rainy-day.png",
+    name: "Saved For a Rainy Day",
+    description:
+      'A responsive full-stack multi-page storage solution for developers and designers that allows users to create, edit, save, and delete customizable color palettes as well as create, edit, save, and delete Google Font pairings. Registered users can store an unlimited number of color palettes and Google font pairings to save ideas for upcoming projects for a "rainy day" when they might be short on inspiration for styling ideas. Light and dark modes available for enhanced user experience.',
+    languages: "React, JSX, JavaScript, Django, Django Rest Framework, Python, PostgreSQL, CSS, The Color API, Google Fonts Developer API",
+    link: "https://saved-for-a-rainy-day.web.app/",
+    repo: "rainy-day",
+    public: true,
+  },
+  {
+    id: "02",
     imageid: "606-academy.png",
     name: "606 Academy",
     description:
@@ -11,18 +22,18 @@ export const data = [
     public: false,
   },
   {
-    id: "02",
+    id: "03",
     imageid: "github-gallery.png",
     name: "Github Repo Gallery",
     description:
-      "A gallery that displays public repos with search functionality. Coded using Javascript and Github REST API. Light/dark theme toggle functionality for enhanced user experience.",
+      "A gallery that displays public repositories with search functionality. Coded using Javascript and Github REST API. Light/dark theme toggle functionality for enhanced user experience.",
     languages: "Javascript, CSS, HTML",
     link: "https://katarzyna-kw.github.io/github-repo-gallery",
     repo: "github-repo-gallery",
     public: true,
   },
   {
-    id: "03",
+    id: "04",
     imageid: "puffy-cat.png",
     name: "Puffy Cat Game ",
     description:
@@ -30,17 +41,6 @@ export const data = [
     languages: "Javascript, CSS, HTML5",
     link: "https://katarzyna-kw.github.io/puffy-cat-game",
     repo: "puffy-cat-game",
-    public: true,
-  },
-  {
-    id: "04",
-    imageid: "sticky-notes.png",
-    name: "Sticky Notes Generator ",
-    description:
-      "A to-do user interface coded using React. Local storage persists data for user.",
-    languages: "React, JSX, CSS",
-    link: "https://katarzyna-kw.github.io/sticky-notes",
-    repo: "sticky-notes",
     public: true,
   },
   {
@@ -67,6 +67,28 @@ export const data = [
   },
   {
     id: "07",
+    imageid: "poketeam-generator.png",
+    name: "Pokemon Team Generator",
+    description:
+      "A responsive Pokemon team generator made using PokeAPI, Javascript, CSS, and HTML.",
+    languages: "Javascript, HTML, CSS",
+    link: "https://poketeam-generator.herokuapp.com/",
+    repo: "pokemon-theme-team",
+    public: false,
+  },
+  {
+    id: "08",
+    imageid: "sticky-notes.png",
+    name: "Sticky Notes Generator ",
+    description:
+      "A to-do user interface coded using React. Local storage persists data for user.",
+    languages: "React, JSX, CSS",
+    link: "https://katarzyna-kw.github.io/sticky-notes",
+    repo: "sticky-notes",
+    public: true,
+  },
+  {
+    id: "09",
     imageid: "map.png",
     name: "Election Map",
     description:
@@ -87,17 +109,6 @@ export const data = [
   //   repo: "lolcat",
   //   public: true,
   // },
-  {
-    id: "09",
-    imageid: "poketeam.png",
-    name: "Pokemon Team Generator",
-    description:
-      "A responsive Pokemon team generator made using PokeAPI, Javascript, CSS, and HTML.",
-    languages: "Javascript, HTML, CSS",
-    link: "https://poketeam-generator.herokuapp.com/",
-    repo: "pokemon-theme-team",
-    public: false,
-  },
   {
     id: "10",
     imageid: "css-basics.png",

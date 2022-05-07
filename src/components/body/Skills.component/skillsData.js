@@ -6,6 +6,7 @@ const skillsData = [
       "React JS",
       "Python",
       "Django",
+      "Django Rest Framework",
       "PostgreSQL",
       "Responsive Web Design", 
       "HTML",
@@ -16,7 +17,7 @@ const skillsData = [
     ]
   },
   {
-    "scope": "Fluent Languages",
+    "scope": "Fluent World Languages",
     "skills": [
       "English",
       "Polish"
