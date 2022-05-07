@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.3916526e.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.b3e5a168.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.b3e5a168.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.2a0c83dd.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.2a0c83dd.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.045fc6d4.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.045fc6d4.js.map",
     "static/css/2.d59c9b0b.chunk.css": "/portfolio-website/static/css/2.d59c9b0b.chunk.css",
@@ -14,14 +14,14 @@
     "static/css/2.d59c9b0b.chunk.css.map": "/portfolio-website/static/css/2.d59c9b0b.chunk.css.map",
     "static/css/main.3916526e.chunk.css.map": "/portfolio-website/static/css/main.3916526e.chunk.css.map",
     "static/js/2.536bb1d0.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.536bb1d0.chunk.js.LICENSE.txt",
-    "static/media/kw--bw.b3e65401.png": "/portfolio-website/static/media/kw--bw.b3e65401.png",
-    "static/media/kw.a46a6cd3.png": "/portfolio-website/static/media/kw.a46a6cd3.png"
+    "static/media/kat-wegrzynowicz-bw.53239f72.png": "/portfolio-website/static/media/kat-wegrzynowicz-bw.53239f72.png",
+    "static/media/kat-wegrzynowicz.708f659c.png": "/portfolio-website/static/media/kat-wegrzynowicz.708f659c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.045fc6d4.js",
     "static/css/2.d59c9b0b.chunk.css",
     "static/js/2.536bb1d0.chunk.js",
     "static/css/main.3916526e.chunk.css",
-    "static/js/main.b3e5a168.chunk.js"
+    "static/js/main.2a0c83dd.chunk.js"
   ]
 }
