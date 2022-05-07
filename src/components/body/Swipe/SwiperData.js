@@ -45,15 +45,27 @@ export const data = [
   },
   {
     id: "05",
-    imageid: "daily-check.png",
-    name: "Daily Mood Check ",
+    imageid: "palindrome-check.png",
+    name: "Palindrome Checker",
     description:
-      "A mood tracker built with React and Axios that writes to Google Forms.",
+      "A simple palindrome checker built for a Code Platoon exercise using React that provides real-time feedback to users.",
     languages: "React JS, CSS",
-    link: "https://katarzyna-kw.github.io/daily-check",
-    repo: "daily-check",
-    public: true,
+    link: "https://palindrome-checker-cp.web.app/",
+    repo: "react-plaindrome",
+    public: false,
   },
+
+  // {
+  //   id: "05",
+  //   imageid: "daily-check.png",
+  //   name: "Daily Mood Check ",
+  //   description:
+  //     "A mood tracker built with React and Axios that writes to Google Forms.",
+  //   languages: "React JS, CSS",
+  //   link: "https://katarzyna-kw.github.io/daily-check",
+  //   repo: "daily-check",
+  //   public: true,
+  // },
   {
     id: "06",
     imageid: "guess.png",
