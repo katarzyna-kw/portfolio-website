@@ -5,7 +5,7 @@ import Footer from "./components/footer/footer.component.jsx";
 import "./App.css";
 
 function App() {
-  const [theme, setTheme] = useState("neon");
+  const [theme, setTheme] = useState("pastel");
 
   return (
     <main
