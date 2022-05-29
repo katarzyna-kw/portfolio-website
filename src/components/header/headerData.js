@@ -13,7 +13,7 @@ const headerData = [
   },
   {
     title: "Contact",
-    link: "#Contact",
+    link: "#contact",
   },
 ];
 
