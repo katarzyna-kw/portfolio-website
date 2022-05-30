@@ -35,6 +35,7 @@
   line-height: 1.7em;
   text-align: left;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .about__content--link {
@@ -47,4 +48,12 @@
 
 .about__content--link:hover {
   color: var(--theme-body-about-link-hover);
+}
+
+@media (min-width: 768px) {
+  .about__content--text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
 }
