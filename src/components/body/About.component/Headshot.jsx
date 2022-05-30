@@ -4,7 +4,7 @@ import color from '../../../assets/kat-wegrzynowicz.png'
 
 function Headshot() {
   return (
-    <div class="figure">
+    <div className="figure">
       <img
         className="about__content--img img--main"
         src={bw}

@@ -1,10 +1,3 @@
-#about {
-  margin: 30px 10px 30px 10px;
-  font-size: 1.1rem;
-  line-height: 1.5em;
-  color: var(--theme-body-about-text);
-}
-
 .figure {
   position: relative;
 }
@@ -54,19 +47,4 @@
 
 .about__content--link:hover {
   color: var(--theme-body-about-link-hover);
-}
-
-@media (min-width: 700px) {
-  #about {
-    width: 70%;
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 1090px) {
-  #about {
-    width: 60%;
-    font-size: 1.2rem;
-    line-height: 2.6rem;
-  }
 }

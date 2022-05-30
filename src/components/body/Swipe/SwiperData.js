@@ -4,7 +4,7 @@ export const data = [
     imageid: "saved-for-a-rainy-day.png",
     name: "Saved For a Rainy Day",
     description:
-      'A responsive full-stack multi-page storage solution for developers and designers that allows users to create, edit, save, and delete customizable color palettes as well as create, edit, save, and delete Google Font pairings. Registered users can store an unlimited number of color palettes and Google font pairings to save ideas for upcoming projects for a "rainy day" when they might be short on inspiration for styling ideas. Light and dark modes available for enhanced user experience.',
+      'A responsive full-stack multi-page storage solution that allows users to create, edit, save, and delete customizable color palettes and Google Font pairings to save styling ideas for a "rainy day". Light and dark modes available for enhanced user experience.',
     languages: "React, JSX, JavaScript, Django, Django Rest Framework, Python, PostgreSQL, CSS, The Color API, Google Fonts Developer API",
     link: "https://saved-for-a-rainy-day.web.app/",
     repo: "rainy-day",

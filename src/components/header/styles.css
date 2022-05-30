@@ -5,6 +5,11 @@
   flex-flow: row wrap;
 }
 
+.logo-link {
+  text-decoration: none;
+  cursor: cell;
+}
+
 .header__logo {
   font-family: "Arapey", serif;
   font-style: italic;

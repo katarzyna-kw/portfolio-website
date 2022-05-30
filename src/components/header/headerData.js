@@ -1,19 +1,19 @@
 const headerData = [
   {
     title: "About",
-    link: "#about",
+    link: "/",
   },
   {
     title: "Portfolio",
-    link: "#portfolio",
+    link: "/portfolio",
   },
   {
     title: "Skills",
-    link: "#skills",
+    link: "/skills",
   },
   {
     title: "Contact",
-    link: "#contact",
+    link: "/contact",
   },
 ];
 

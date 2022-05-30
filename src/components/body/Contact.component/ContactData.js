@@ -1,7 +1,7 @@
 const contactLinks = [
   {
     icon: "fa fa-envelope",
-    link: "mailto: katarzyna.koch@gmail.com",
+    link: "mailto: katarzyna.koch@gmail.com?subject=Hello, Kat!",
   },
   {
     icon: "fa fa-github",

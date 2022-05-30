@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { Link, NavLink } from 'react-router-dom';
 import {
   Switch,
   FormControlLabel,
@@ -10,6 +11,24 @@ import "./styles.css";
 
 function Header({ setTheme }) {
   const [checked, setChecked] = useState(false);
+  const [navbarOpen, setNavbarOpen] = useState(false)
+  const [width, setWidth] = useState(window.innerWidth)
+  const isMobile = width < 768 ? true : false;
+
+
+  // useEffect (() => {
+  //   const updateWindow = () => {
+  //     setWidth(window.innerWidth)
+  //   };
+
+  //   window.addEventListener("resize", updateWindow)
+
+  //   return () => window.removeEventListener("resize", updateWindow)
+  // }, [])
+
+  // const handleClick = () => {
+  //   setNavbarOpen(prev => !prev)
+  // }
 
   const handleToggle = (event) => {
     setChecked(event.target.checked);
@@ -36,18 +55,20 @@ function Header({ setTheme }) {
   return (
     <div className="header__container" data-testid="Header">
       <div className="header">
-        <div className="header__logo">
-          Hi, I'm <span>Katarzyna;</span>
-        </div>
-        <div className="header__subhead">a full-stack developer</div>
+        <Link to="/" className="logo-link">
+          <div className="header__logo">
+            Hi, I'm <span>Katarzyna;</span>
+          </div>
+          <div className="header__subhead">a full-stack developer</div>
+        </Link>
       </div>
       <div id="navbar">
         <ul className="nav__list">
           {headerData.map((item) => (
             <li className="nav__list--items" key={item.title}>
-              <a className="nav__list--links" href={item.link}>
+              <NavLink to={`${item.link}`} className="nav__list--links">
                 {item.title}
-              </a>
+              </NavLink>
             </li>
           ))}
           <li className="nav__list--items">

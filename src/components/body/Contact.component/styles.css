@@ -1,7 +1,3 @@
-#contact {
-  width: 100%;
-}
-
 .contact__list {
   display: flex;
   justify-content: space-around;
@@ -27,14 +23,11 @@
   color: var(--theme-page-contact-icons-hover);
 }
 
-@media (min-width: 700px) {
-  #contact {
-    width: 70%;
+@media (min-width: 900px) {
+  .contact__list--icons,
+  .contact__list--icons a {
+    padding-top: 20px;
+    font-size: 5rem;
   }
-}
 
-@media (min-width: 1090px) {
-  #contact {
-    width: 60%;
-  }
 }
