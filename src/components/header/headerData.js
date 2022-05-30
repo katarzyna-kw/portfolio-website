@@ -1,7 +1,7 @@
 const headerData = [
   {
     title: "About",
-    link: "/",
+    link: "/portfolio-website",
   },
   {
     title: "Portfolio",
