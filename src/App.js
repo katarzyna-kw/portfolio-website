@@ -40,10 +40,10 @@ function App() {
           <div className="site-content">
             <Header theme={theme} setTheme={setTheme} />
               <Routes>
-                <Route exact path="/" element={ <HomePage />} />
-                <Route exact path="/portfolio" element={ <PortfolioPage />} />
-                <Route exact path="/skills" element={ <SkillsPage />} />
-                <Route exact path="/contact" element={ <ContactPage />} />
+                <Route exact path="/portfolio-website" element={ <HomePage />} />
+                <Route exact path="/portfolio-website/portfolio" element={ <PortfolioPage />} />
+                <Route exact path="/portfolio-website/skills" element={ <SkillsPage />} />
+                <Route exact path="/portfolio-website/contact" element={ <ContactPage />} />
               </Routes>
           </div>
         </BrowserRouter>
