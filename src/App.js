@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./components/header/header.component.jsx";
 import Footer from "./components/footer/footer.component.jsx";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage.js";
 import PortfolioPage from "./pages/PortfolioPage.js";
 import SkillsPage from "./pages/SkillsPage.js";
@@ -36,7 +36,7 @@ function App() {
           )`,
         }}
       >
-        <BrowserRouter>
+        <HashRouter>
           <div className="site-content">
             <Header theme={theme} setTheme={setTheme} />
               <Routes>
@@ -46,7 +46,7 @@ function App() {
                 <Route exact path="/contact" element={ <ContactPage />} />
               </Routes>
           </div>
-        </BrowserRouter>
+        </HashRouter>
         <Footer />
       </main>
   );
