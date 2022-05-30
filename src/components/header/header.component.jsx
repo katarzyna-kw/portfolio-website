@@ -41,7 +41,7 @@ function Header({ theme, setTheme }) {
   return (
     <div className="header__container" data-testid="Header">
       <div className="header">
-        <Link to="/portfolio-website" className="logo-link">
+        <Link to="/" className="logo-link">
           <div className="header__logo">
             Hi, I'm <span>Katarzyna;</span>
           </div>
