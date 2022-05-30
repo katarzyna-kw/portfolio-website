@@ -9,26 +9,8 @@ import {
 import headerData from "./headerData";
 import "./styles.css";
 
-function Header({ setTheme }) {
+function Header({ theme, setTheme }) {
   const [checked, setChecked] = useState(false);
-  const [navbarOpen, setNavbarOpen] = useState(false)
-  const [width, setWidth] = useState(window.innerWidth)
-  const isMobile = width < 768 ? true : false;
-
-
-  // useEffect (() => {
-  //   const updateWindow = () => {
-  //     setWidth(window.innerWidth)
-  //   };
-
-  //   window.addEventListener("resize", updateWindow)
-
-  //   return () => window.removeEventListener("resize", updateWindow)
-  // }, [])
-
-  // const handleClick = () => {
-  //   setNavbarOpen(prev => !prev)
-  // }
 
   const handleToggle = (event) => {
     setChecked(event.target.checked);
@@ -37,6 +19,10 @@ function Header({ setTheme }) {
   const onModeToggle = () => {
     setTheme((theme) => (theme === "pastel" ? "neon" : "pastel"));
   };
+
+  useEffect(() => {
+    localStorage.setItem('theme', theme); // save theme selection 
+  }, [onModeToggle])
 
   const PurpleSwitch = withStyles({
     switchBase: {
