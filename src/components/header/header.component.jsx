@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from 'react-router-dom';
 import {
   Switch,
@@ -20,9 +20,9 @@ function Header({ theme, setTheme }) {
     setTheme((theme) => (theme === "pastel" ? "neon" : "pastel"));
   };
 
-  useEffect(() => {
-    localStorage.setItem('theme', theme); // save theme selection 
-  }, [onModeToggle])
+  // useEffect(() => {
+  //   localStorage.setItem('theme', theme); // save theme selection 
+  // }, [onModeToggle])
 
   const PurpleSwitch = withStyles({
     switchBase: {
@@ -39,7 +39,7 @@ function Header({ theme, setTheme }) {
   })(Switch);
 
   return (
-    <div className="header__container" data-testid="Header">
+    <header className="header__container" data-testid="Header">
       <div className="header">
         <Link to="/" className="logo-link">
           <div className="header__logo">
@@ -74,7 +74,7 @@ function Header({ theme, setTheme }) {
           </li>
         </ul>
       </div>
-    </div>
+    </header>
   );
 }
 

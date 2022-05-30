@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Header from "./components/header/header.component.jsx";
 import Footer from "./components/footer/footer.component.jsx";
 import "./App.css";
@@ -12,19 +12,17 @@ function App() {
 
   const [theme, setTheme] = useState('pastel');
 
-  useEffect(() => {
-    console.log("theme: ", theme)
-    let currentTheme = localStorage.getItem("theme")
-    if (currentTheme !== undefined) {
-      setTheme(currentTheme)
-    }
-    console.log("current theme: ", currentTheme)
-  }, [])
+  // useEffect(() => {
+  //   console.log("theme: ", theme)
+  //   let currentTheme = localStorage.getItem("theme")
+  //   if (currentTheme !== undefined) {
+  //     setTheme(currentTheme)
+  //   }
+  //   console.log("current theme: ", currentTheme)
+  // }, [])
 
   return (
       <main
-      // className={`App ${theme}`}
-
         className={`App ${theme}`}
         data-testid="App"
         style={{
