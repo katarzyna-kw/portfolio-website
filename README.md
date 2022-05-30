@@ -5,18 +5,18 @@ This is my portfolio site built with React Js.
 ## Table of contents
 
 - [Screenshot](#screenshot)
+ - [Light Mode](#light-mode)
 - [Tech Stack](#tech-stack)
 
 
 ## Screenshot
 
+### Light Mode
+
 ![](https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/screenshot.png)
 
-
-### Links
-
-- Solution URL: [https://github.com/katarzyna-kw/advice-generator](https://github.com/katarzyna-kw/advice-generator)
-- Live Site URL: [https://katarzyna-kw.github.io/advice-generator/](https://katarzyna-kw.github.io/advice-generator/)
+### Dark Mode
+![](https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/screenshot.png)
 
 ## Tech Stack
 
