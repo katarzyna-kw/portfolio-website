@@ -13,10 +13,10 @@ This is my portfolio site built with React Js.
 
 ### Light Mode
 
-![](https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/screenshot.png)
+![](https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/screenshot-light-mode.png)
 
 ### Dark Mode
-![](https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/screenshot.png)
+![](https://raw.githubusercontent.com/katarzyna-kw/portfolio-website/main/public/screenshot-dark-mode.png)
 
 ## Tech Stack
 
