@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, NavLink } from 'react-router-dom';
 import {
   Switch,
@@ -18,11 +18,8 @@ function Header({ theme, setTheme }) {
 
   const onModeToggle = () => {
     setTheme((theme) => (theme === "pastel" ? "neon" : "pastel"));
+    // localStorage.setItem('theme', theme); // save theme selection 
   };
-
-  // useEffect(() => {
-  //   localStorage.setItem('theme', theme); // save theme selection 
-  // }, [onModeToggle])
 
   const PurpleSwitch = withStyles({
     switchBase: {

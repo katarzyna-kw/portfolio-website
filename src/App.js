@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "./components/header/header.component.jsx";
 import Footer from "./components/footer/footer.component.jsx";
 import "./App.css";
@@ -11,15 +11,16 @@ import ContactPage from "./pages/ContactPage.js";
 function App() {
 
   const [theme, setTheme] = useState('pastel');
+  // const [theme, setTheme] = useState((currentTheme) => currentTheme === 'neon' ? 'neon' : 'pastel')
 
   // useEffect(() => {
   //   console.log("theme: ", theme)
   //   let currentTheme = localStorage.getItem("theme")
-  //   if (currentTheme !== undefined) {
-  //     setTheme(currentTheme)
+  //   if (currentTheme == 'neon') {
+  //     setTheme('neon')
   //   }
   //   console.log("current theme: ", currentTheme)
-  // }, [])
+  // }, [theme])
 
   return (
       <main
